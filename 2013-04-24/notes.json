@@ -1,0 +1,372 @@
+{
+  "id" : "user/14778993901569235562/source/com.google/post",
+  "title" : "\"post\" via balupton in Google Reader",
+  "author" : "balupton",
+  "updated" : 1366448321,
+  "direction" : "ltr",
+  "items" : [ {
+    "crawlTimeMsec" : "1366448321190",
+    "timestampUsec" : "1366448321190460",
+    "id" : "tag:google.com,2005:reader/item/0de00bf2b1fb8c15",
+    "categories" : [ "user/14778993901569235562/source/com.google/link", "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/starred", "user/14778993901569235562/state/com.google/fresh" ],
+    "title" : "Community Spotlight: Luis Ibanez | opensource.com",
+    "published" : 1366448321,
+    "updated" : 1366448321,
+    "related" : [ {
+      "href" : "http://opensource.com/health/13/4/community-spotlight-luis-ibanez",
+      "title" : "Community Spotlight: Luis Ibanez | opensource.com"
+    } ],
+    "alternate" : [ {
+      "href" : "http://opensource.com/health/13/4/community-spotlight-luis-ibanez",
+      "type" : "text/html"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "<div>\n    <div><img src=\"http://opensource.com/sites/default/files/imagecache/image-full-size/images/5questions_2.png\" alt=\"5 Questions with...\" title=\"Contributing to open source projects from 9 to 5\"><span>Image by opensource.com</span></div><div><a></a> <a href=\"http://opensource.com/health/13/4/community-spotlight-luis-ibanez\"><img src=\"http://www.nuxified.org/images/identica.png\"></a> <a href=\"http://reddit.com/submit?url=http%3A%2F%2Fopensource.com%2Fhealth%2F13%2F4%2Fcommunity-spotlight-luis-ibanez%3Fsc_cid%3D70160000000Sz2GAAS&amp;title=Contributing+to+open+source+projects+from+9+to+5%2C+and+beyond\"><img src=\"http://reddit.com/static/spreddit7.gif\" alt=\"submit to reddit\" border=\"0\"></a> <a></a></div>\n<p>Luis Ibanez was recently awarded a People's Choice Award by our readers for his contributions to the site. It's no wonder he has so much to say and impart on open source projects—he works on them fulltime! </p>\n<p>In this Community Spotlight, Luis sheds light on what projects he contributes to, why he believes it is important we all give back at some point, and what open source tools he can't live without.</p>\n<p>Plus, learn where developers are desperately needed and can make a huge difference in society.</p>\n\n<h2>The Basics</h2>\n<ul><li><em>Name:</em><span> Luis Ibanez</span></li>\n<li><span><em>Opensource.com username:</em> Luis Ibanez</span></li>\n<li><span><em>Location:</em> Albany, NY</span></li>\n<li><span><em>Occupation/Employer/Position: </em>Software Developer / Kitware Inc. / Technical Leader</span></li>\n<li><span><em>Open source connection: </em>Contributor to <a title=\"Insight Segmentation and Registration Toolkit (ITK)\" href=\"http://www.itk.org/\">ITK</a>, Director of Science and IP at <a title=\"Open source Electronic Health Record Agent\" href=\"http://www.osehra.org/\">OSEHRA</a>, Professor of Open Source Software Practices class at <a title=\"Rensselaer Polytechnic Institute\" href=\"http://rpi.edu/\">RPI</a>, Professor of Open Source Databases and Web Development at <a title=\"SUNY-Albany\" href=\"http://www.albany.edu/\">SUNY-Albany</a>.</span></li>\n<li><span><em>Favorite open source tool or application:</em> <a title=\"Vim, text editor\" href=\"http://www.vim.org/\">Vim</a></span></li>\n<li><span><em>Favorite opensource.com channel:</em> Education</span></li>\n</ul><h2>Community Spotlight</h2>\n<p><strong>Open up to us.</strong></p>\n<p>I am a Technical Leader at Kitware Inc., where I have been working full time in open source projects since 2002. Kitware is a dream company for anyone who wants to make a living contributing to open source projects.</p>\n<p>I started working on open source with the Image Segmentation and Registration Toolkit (ITK) back in 1999 while I was working at UNC-Chapel Hill, and contributed to it for 10 years, both by developing software, and by helping build the community around it. As part of the activities in ITK, I also contributed to the National Alliance for Medical Image Computing (NAMIC), an NIH-funded open source community focused on medical image analysis, and to IGSTK an open source community dedicated to Image Guided Surgery.</p>\n<p>In 2011, I started contributing to the Open Source EHR Agent (OSEHRA) as Director of Science and IP. This is the organization set by the U.S. Department of Veterans Affairs to build an open source environment for VistA, the EHR developed at the VA using the M language and database.</p>\n<p>Since 2007, in collaboration with other instructors, I have been teaching a course on Open Source Software Practices at the Rensselaer Polytechnic Institute in Troy, NY. More recently I started teaching Open Source databases (particularly NoSQL) and Open Source Web Development at the State University of New York in Albany, with the goal of bringing more young developers to the space of open source in healthcare.</p>\n<p><strong><span>What open tools and data help you get things done, and how do they help you?</span></strong></p>\n<p>The tools I use every day are: Vim, git, CMake, GNU Compiler Collection, GNU Project Debugger, LaTeX—all of them on Linux.</p>\n<p>Vim is the most productive software for editing files of all types, it is almost a way of life. Working at the level of the command line is very helpful in keeping close to where the real stuff happens, and better understand the software we use. It is concerning that many college students are not being exposed to the Command Line and learning how to be productive with it. Git has been a revolutionary tool, and complemented with hosting at <a title=\"Github\" href=\"https://github.com/\">Github</a>, it has completely changed the way I can get things done today, while collaborating with other people. <a title=\"CMake\" href=\"http://www.cmake.org/\">CMake </a>has made possible, not only to simplify the configuration of software for multiple-platforms, but also to implement test-driven environments and to enforce verification of reproducibility. GNU Compiler (<a title=\"GCC\" href=\"http://gcc.gnu.org/\">GCC</a>) and GNU Project Debugger (<a title=\"GNU Project Debugger\" href=\"http://www.gnu.org/software/gdb/\">GDB</a>) are the most powerful tools we have and make possible all our other layers of open source software, we can never be grateful enough to all the people who develop and maintain GCC and GDB. <a title=\"LaTeX project\" href=\"http://www.latex-project.org/\">LaTeX</a> is still my preferred method for generating documents, although lately, the combination of RST and Sphinx has proven to be very productive way of generating nice-looking, maintainable documentation with rather small effort. </p>\n<p><strong><span>What do you wish were more open?</span></strong></p>\n<p>I wish that Electronic Health Records (EHR) systems were open. <span>The U.S. spends 18% of GDP on healthcare ($2.8 Trillion a year), and it is an industry that by and large has not adopted computerized systems. The large majority of health records are managed and stored on paper, in folders and cabinets. They are not accessible to patients themselves, and they can not be easily shared across doctors either. They are locked away from medical researchers as well. The standard mechanism for transmitting healthcare information is still the fax machine. Under incentives from the government, many U.S. hospitals have started to adopt EHR systems, but the large majority are closed-source and are so expensive that many hospitals go bankrupt in the process of paying for them. These closed-source EHRs are commercialized under a veil of secrecy, by which the hospitals that adopt them are forbidden from taking screenshots or even talking in public about their EHR. </span></p>\n<p>In the meantime, there are open systems such as <a title=\"VistA\" href=\"http://worldvista.org/AboutVistA/copy2_of_index_html\">VistA</a>, which has been a proven success in hundreds of clinical facilities at the Department of Veterans affairs for four decades. By building on the open source way, VistA could easily be the answer to deploying a rock solid EHR to hospitals, in a form that makes perfect economic sense, by simply distributing the cost of software maintenance across the thousands of hospitals that could adopt it.</p>\n<p>The main obstacle in the way of VistA flourishing in the open source space, is the fact that not enough young developers are joining the ecosystem. The large majority of EHRs, both closed-source and open-source are built on top of M, a language that has a NoSQL hierarchical database integrated with it. Both the language and the database have been ignored for decades by academia and the larger IT industry.</p>\n<p>Today, there is an opportunity to bring open source to healthcare by taking advantage of <a title=\"Node.js integrates with M: Next big thing in healthcare IT\" href=\"http://opensource.com/education/13/1/nodejs-nosql-m-healthcare-it\">combining a popular language</a>, Javascript (through the use of Node.js) with the powerful and proven M database. This is an issue of great social and economic significance, where open source developers can have a dramatic effect on the way our society functions.</p>\n<p><strong><span>What are the biggest challenges to openness that you encounter, either at work or in your life?</span></strong></p>\n<p>Ignorance of basic concepts of economics. It is paradoxical that although we live in a capitalistic society, very few people learn about the basics of economics. As our class on Open Source Software Practices at RPI has evolved over the years, we have come to explain open source simply in terms of economic efficiency, and it is very straightforward.</p>\n<p>Many people resist openness based on instinctive notions that if they share, they are losing something. We need to provide better education on the concept of \"enlightened self-interest,\" by which we should share simply because it is good for us in the long term. <span>Economics is not a zero-sum game; what openness does in general is creates value, and it does on a very large scale.</span></p>\n<p><strong>Why choose the open source way?</strong></p>\n<p>Because it empowers us to drive change. It is disruptive. It is available to everyone. It allows us to start from nothing and build at higher and higher levels in a constructive way. The open source way makes possible for each and everyone of us to reach full potential by removing barriers to the dissemination of information. It makes available with minimal limitations all the information and resources that we need to innovate and to create robust infrastructures.</p>\n  </div>\n  \n      "
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "user/14778993901569235562/source/com.google/link",
+      "title" : "Community Spotlight: Luis Ibanez | opensource.com",
+      "htmlUrl" : "http://opensource.com/health/13/4/community-spotlight-luis-ibanez"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1313045047625",
+    "timestampUsec" : "1313045047625593",
+    "id" : "tag:google.com,2005:reader/item/b63f51e45458c7d2",
+    "categories" : [ "user/14778993901569235562/source/com.google/link", "user/14778993901569235562/state/com.google/broadcast", "user/14778993901569235562/state/com.google/read" ],
+    "title" : "DNA components found in meteorites - Wikinews, the free news source",
+    "published" : 1313045047,
+    "updated" : 1313045047,
+    "related" : [ {
+      "href" : "http://en.wikinews.org/",
+      "title" : "en.wikinews.org"
+    } ],
+    "alternate" : [ {
+      "href" : "http://en.wikinews.org/wiki/DNA_components_found_in_meteorites",
+      "type" : "text/html"
+    } ],
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "user/14778993901569235562/source/com.google/link",
+      "title" : "en.wikinews.org",
+      "htmlUrl" : "http://en.wikinews.org/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1311376185752",
+    "timestampUsec" : "1311376185752502",
+    "id" : "tag:google.com,2005:reader/item/26619d2f9f5c6853",
+    "categories" : [ "user/14778993901569235562/source/com.google/link", "user/14778993901569235562/state/com.google/broadcast", "user/14778993901569235562/state/com.google/read" ],
+    "title" : "JavaScript Patterns : The Single Var Pattern « Expansive Derivation",
+    "published" : 1311376185,
+    "updated" : 1311376185,
+    "related" : [ {
+      "href" : "http://expansive-derivation.ossreleasefeed.com/",
+      "title" : "expansive-derivation.ossreleasefeed.com"
+    } ],
+    "alternate" : [ {
+      "href" : "http://expansive-derivation.ossreleasefeed.com/2011/07/javascript-patterns-the-single-var-pattern/",
+      "type" : "text/html"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "open source is at the root of innovation"
+    },
+    "comments" : [ ],
+    "annotations" : [ {
+      "content" : "I always use this with a JSLint check to back it up. Globals suck.",
+      "author" : "balupton",
+      "userId" : "14778993901569235562",
+      "profileId" : "117485112588440259770"
+    } ],
+    "origin" : {
+      "streamId" : "user/14778993901569235562/source/com.google/link",
+      "title" : "expansive-derivation.ossreleasefeed.com",
+      "htmlUrl" : "http://expansive-derivation.ossreleasefeed.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1311132744930",
+    "timestampUsec" : "1311132744930932",
+    "id" : "tag:google.com,2005:reader/item/b35ce47e5a5cbaea",
+    "categories" : [ "user/14778993901569235562/source/com.google/link", "user/14778993901569235562/state/com.google/broadcast", "user/14778993901569235562/state/com.google/read" ],
+    "title" : "Top 20 Tried and True Ways to Get Satisfaction",
+    "published" : 1311132744,
+    "updated" : 1311132744,
+    "related" : [ {
+      "href" : "http://blog.getsatisfaction.com/",
+      "title" : "blog.getsatisfaction.com"
+    } ],
+    "alternate" : [ {
+      "href" : "http://blog.getsatisfaction.com/2011/07/19/community-manager-tips/?mkt_tok=3RkMMJWWfF9wsRonuKvPZKXonjHpfsX66%2BovUaS0lMI%2F0ER3fOvrPUfGjI4AT8NrI%2FqLAzICFpZo2FFfH%2FSGfZRJ6fNcCFW7VzU%3D",
+      "type" : "text/html"
+    } ],
+    "comments" : [ ],
+    "annotations" : [ {
+      "content" : "Great stuff on community management",
+      "author" : "balupton",
+      "userId" : "14778993901569235562",
+      "profileId" : "117485112588440259770"
+    } ],
+    "origin" : {
+      "streamId" : "user/14778993901569235562/source/com.google/link",
+      "title" : "blog.getsatisfaction.com",
+      "htmlUrl" : "http://blog.getsatisfaction.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1310872231015",
+    "timestampUsec" : "1310872231015372",
+    "id" : "tag:google.com,2005:reader/item/9765abf72dc5fdfb",
+    "categories" : [ "user/14778993901569235562/source/com.google/link", "user/14778993901569235562/state/com.google/broadcast", "user/14778993901569235562/state/com.google/read" ],
+    "title" : "Give Yourself Some Slack Time | Stever Robbins, Get-it-Done Guy",
+    "published" : 1310872231,
+    "updated" : 1310872231,
+    "related" : [ {
+      "href" : "http://www.steverrobbins.com/",
+      "title" : "www.steverrobbins.com"
+    } ],
+    "alternate" : [ {
+      "href" : "http://www.steverrobbins.com/blog/2011/07/toomuchonyourplate/",
+      "type" : "text/html"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "How to avoid being overwhelmed"
+    },
+    "comments" : [ ],
+    "annotations" : [ {
+      "content" : "Hit home for me, and the Monty Python analogy was interesting.",
+      "author" : "balupton",
+      "userId" : "14778993901569235562",
+      "profileId" : "117485112588440259770"
+    } ],
+    "origin" : {
+      "streamId" : "user/14778993901569235562/source/com.google/link",
+      "title" : "www.steverrobbins.com",
+      "htmlUrl" : "http://www.steverrobbins.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1310636227172",
+    "timestampUsec" : "1310636227172674",
+    "id" : "tag:google.com,2005:reader/item/913884274ecf0816",
+    "categories" : [ "user/14778993901569235562/source/com.google/link", "user/14778993901569235562/state/com.google/broadcast", "user/14778993901569235562/state/com.google/read" ],
+    "title" : "Startup marketing ideas",
+    "published" : 1310636227,
+    "updated" : 1310636227,
+    "related" : [ {
+      "href" : "http://blog.asmartbear.com/",
+      "title" : "blog.asmartbear.com"
+    } ],
+    "alternate" : [ {
+      "href" : "http://blog.asmartbear.com/startup-marketing-ideas.html",
+      "type" : "text/html"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "If your marketing strategy consists of A/B tests and accumulating Twitter followers, that’s not a marketing strategy!  That’s like saying “Oh, and we’ll have a web site!”  No kidding, but it takes more than that to stand out in the noise of the Internet.  Here’s some ideas."
+    },
+    "comments" : [ ],
+    "annotations" : [ {
+      "content" : "Fantastic! How to set yourself apart.",
+      "author" : "balupton",
+      "userId" : "14778993901569235562",
+      "profileId" : "117485112588440259770"
+    } ],
+    "origin" : {
+      "streamId" : "user/14778993901569235562/source/com.google/link",
+      "title" : "blog.asmartbear.com",
+      "htmlUrl" : "http://blog.asmartbear.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1309877333175",
+    "timestampUsec" : "1309877333175418",
+    "id" : "tag:google.com,2005:reader/item/eb92521000c40883",
+    "categories" : [ "user/14778993901569235562/source/com.google/link", "user/14778993901569235562/state/com.google/broadcast", "user/14778993901569235562/state/com.google/read" ],
+    "title" : "JavascriptTips - jslibs - JavaScript language advanced tips and tricks - standalone JavaScript development runtime environment with general purpose native libraries - Google Project Hosting",
+    "published" : 1309877333,
+    "updated" : 1309877333,
+    "related" : [ {
+      "href" : "http://code.google.com/",
+      "title" : "code.google.com"
+    } ],
+    "alternate" : [ {
+      "href" : "http://code.google.com/p/jslibs/wiki/JavascriptTips#language_advanced_Tips_&_Tricks",
+      "type" : "text/html"
+    } ],
+    "comments" : [ ],
+    "annotations" : [ {
+      "content" : "Great and plentiful source of javascript tips, tricks and snippets. Useful for beginners and experts :)",
+      "author" : "balupton",
+      "userId" : "14778993901569235562",
+      "profileId" : "117485112588440259770"
+    } ],
+    "origin" : {
+      "streamId" : "user/14778993901569235562/source/com.google/link",
+      "title" : "code.google.com",
+      "htmlUrl" : "http://code.google.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1309792542831",
+    "timestampUsec" : "1309792542831147",
+    "id" : "tag:google.com,2005:reader/item/51849f0802278126",
+    "categories" : [ "user/14778993901569235562/source/com.google/link", "user/14778993901569235562/state/com.google/broadcast", "user/14778993901569235562/state/com.google/read" ],
+    "title" : "CEO Sleepout - Rise to the Challenge",
+    "published" : 1309792542,
+    "updated" : 1309792542,
+    "related" : [ {
+      "href" : "http://staging.viotv.com/",
+      "title" : "staging.viotv.com"
+    } ],
+    "alternate" : [ {
+      "href" : "http://staging.viotv.com/CEOSleepout/",
+      "type" : "text/html"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "On Thursday 16 June 2011 the Vinnies CEO Sleepout takes place in capital cities across Australia. The event challenges business and community leaders to experience homelessness first-hand for one night, raise important money, and with fresh insight go on to effect change in social opinions on this serious issue. All money raised goes directly towards the ongoing provision of Vinnies’ homeless services across the country. You can support Vinnies by sponsoring a CEO and be sure to spread the word."
+    },
+    "comments" : [ ],
+    "annotations" : [ {
+      "content" : "Amazing. I've signed up for next year.",
+      "author" : "balupton",
+      "userId" : "14778993901569235562",
+      "profileId" : "117485112588440259770"
+    } ],
+    "origin" : {
+      "streamId" : "user/14778993901569235562/source/com.google/link",
+      "title" : "staging.viotv.com",
+      "htmlUrl" : "http://staging.viotv.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1309428162186",
+    "timestampUsec" : "1309428162186576",
+    "id" : "tag:google.com,2005:reader/item/2e861bc3316abc7e",
+    "categories" : [ "user/14778993901569235562/source/com.google/link", "user/14778993901569235562/state/com.google/broadcast", "user/14778993901569235562/state/com.google/read" ],
+    "title" : "Official Google Blog: The meaning of open",
+    "published" : 1309428162,
+    "updated" : 1309428162,
+    "related" : [ {
+      "href" : "http://googleblog.blogspot.com/",
+      "title" : "googleblog.blogspot.com"
+    } ],
+    "alternate" : [ {
+      "href" : "http://googleblog.blogspot.com/2009/12/meaning-of-open.html",
+      "type" : "text/html"
+    } ],
+    "comments" : [ ],
+    "annotations" : [ {
+      "content" : "Amazing, and could not agree more. Openness is the key of the future.",
+      "author" : "balupton",
+      "userId" : "14778993901569235562",
+      "profileId" : "117485112588440259770"
+    } ],
+    "origin" : {
+      "streamId" : "user/14778993901569235562/source/com.google/link",
+      "title" : "googleblog.blogspot.com",
+      "htmlUrl" : "http://googleblog.blogspot.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1292362993073",
+    "timestampUsec" : "1292362993073119",
+    "id" : "tag:google.com,2005:reader/item/4c7dfb7ee645369d",
+    "categories" : [ "user/14778993901569235562/source/com.google/link", "user/14778993901569235562/state/com.google/broadcast", "user/14778993901569235562/state/com.google/read" ],
+    "title" : "Leaving Mozilla, Starting Massive Health",
+    "published" : 1292362993,
+    "updated" : 1292362993,
+    "related" : [ {
+      "href" : "http://www.azarask.in/blog",
+      "title" : "Aza on Design"
+    } ],
+    "alternate" : [ {
+      "href" : "http://www.azarask.in/blog/post/leaving-mozilla/",
+      "type" : "text/html"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "<div><a href=\"http://massivehealth.com\"><img src=\"http://img.skitch.com/20101214-86be9y29d43pspaeif27suatxi.png\"></a></div>\n<p>Firefox is a project you never want to leave, and Mozilla is a company of which dreams are made. No matter where I travel in the world—from Rome to Tokyo—there are engaged Mozillian communities that immediately whirlwind me to a local pub to talk shop. I’ve been extremely lucky to participate in the world’s flagship open-source movement.</p>\n<p>After helping to shape and ship the world’s leading browser to nearly half a billion people, there’s little one can do which seems meaningful. Where does one go? It’s been an action-packed time: I’ve started projects from <a href=\"https://mozillalabs.com/blog/2008/08/introducing-ubiquity/\">Ubiquity</a> to <a href=\"http://mozillalabs.com/jetpack/2010/03/09/announcing-the-jetpack-sdk/\">Jetpack</a>; designed the <a href=\"http://techcrunch.com/2008/06/11/zoom-pan-throw-a-peek-at-what-firefox-mobile-could-be/\">Firefox Mobile concept</a> and the original W3C <a href=\"http://dev.w3.org/geo/api/spec-source.html#references\">geolocation specification</a>; led projects like <a href=\"http://techcrunch.com/2010/07/23/firefox-tab-candy/\">Firefox Panorama</a> and given a <a href=\"http://blog.ted.com/2009/07/22/session_3_runni_2/\">TED talk</a>; helped scale the open source design community; and even invented <a href=\"http://www.computerworld.com/s/article/9177326/Sneaky_browser_tabnapping_phishing_tactic_surfaces\">new forms of phishing</a>. The scale of impact and ability to work in the open for a public-benefit company has been a life-defining experience. The last two and a half years I’ve been inspired by, and lucky enough to also inspire, the best and brightest in protecting and enhancing the open Web—arguably the most precious resources of our time.</p>\n<p>Come January 1st, however, I’m leaving to found a new company. <a href=\"http://massivehealth.com\">Massive Health</a>.<br>\n<span></span><br>\nEach of us has a unique ability. I want to use mine—the knowledge to make products which are disruptively easier and more enjoyable to use—to change people’s lives. Life-changing not in the sense of a new social website or better email, but in making people’s lives materially better by helping them get and stay healthy. Anyone that’s been sick, overweight, or had to deal with a doctor knows that health is a field in dire need of humane design.</p>\n<p>Health is personal. My entire family – save me – is overweight. My mother is a well-known nurse practitioner and runs a hospice in San Francisco. She’s decisively smart and deals first-hand with the ramifications of the catastrophic affects of obesity on patient’s quality of life. Why then does she struggle with her own weight? It’s because people did not evolve to cope with the calorie-glut we live in now. Worse, the human brain <a href=\"http://www.newyorker.com/reporting/2009/05/18/090518fa_fact_lehrer\">famously</a> doesn’t deal well with delayed gratification. The reason why weight is hard is because the feedback loop is too loose: The cake I eat today doesn’t materially change my body for the rest of today or tomorrow. It’s the incremental amount of cake I eat or don’t over weeks and months that makes me fit or fat. Our brain’s pleasure circuits lead us to optimize short-term happiness (cake!) over long-term healthiness (obesity, coronary heart disease, diabetes).</p>\n<p>Think about it like driving a car. While you know it is bad for the environment to drive, that knowledge doesn’t really change your behavior. When the Prius introduced a large screen with instant and average MPG with a pretty graph, Toyota created a small breed of hypermilers and a much larger populace that changed routes and driving behavior to optimize that number. Toyota had tightened the feedback loop and pushed people to drive more green on a daily basis. In fact, people changed their behavior so much that when BMW did an experiment in making the instantaneous MPG readout even more prominent, BMW had to stop the study midway as the rate of accidents dramatically increased due to drivers trying to maximize their MPG instead of driving safely.</p>\n<p>And it is not just weight. A couple years ago I was dating an entrepreneur who had type one diabetes. Through that relationship I got to know the condition and the deleterious state-of-the-art. She was silicon-valley technically savvy and despite leading her company to a successful exit, the best technology she had was still just writing down her blood glucose levels and squinting at a column of numbers in an attempt to gain insight into her condition. Even when she painstakingly put her information into a spreadsheet, there just wasn’t enough tool there to give her data actionable meaning. It was clear that a little bit of design could go a long way to giving people back control of their bodies and lives.</p>\n<p>With health-care costs rising faster than inflation, a crisis is on the horizon. We need to apply cognitive psychology, the principles of design, and tighter feedback loops to our own health. Health care needs to have its design Renaissance, where products and services are redesigned to be responsive to human needs and considerate of human frailties.</p>\n<p><a href=\"http://massivehealth.com\">Massive Health</a>, we think, can help make that happen.</p>\n\n\n<p>No related posts.</p>"
+    },
+    "comments" : [ ],
+    "annotations" : [ {
+      "content" : "Aza Raskin leaves Mozilla to start Massive Health - where amazing design meets the health industry.",
+      "author" : "balupton",
+      "userId" : "14778993901569235562",
+      "profileId" : "117485112588440259770"
+    } ],
+    "origin" : {
+      "streamId" : "user/14778993901569235562/source/com.google/link",
+      "title" : "Aza on Design",
+      "htmlUrl" : "http://www.azarask.in/blog"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1266593203355",
+    "timestampUsec" : "1266593203355564",
+    "id" : "tag:google.com,2005:reader/item/df6d1f70aee9d94a",
+    "categories" : [ "user/14778993901569235562/source/com.google/link", "user/14778993901569235562/state/com.google/broadcast", "user/14778993901569235562/state/com.google/read" ],
+    "title" : "Is John The Client Dense or Are You Failing Him?",
+    "published" : 1266593203,
+    "updated" : 1266593203,
+    "related" : [ {
+      "href" : "http://www.smashingmagazine.com/",
+      "title" : "Smashing Magazine Feed"
+    } ],
+    "alternate" : [ {
+      "href" : "http://www.smashingmagazine.com/2010/02/19/is-john-the-client-dense-or-are-you-failing-him/",
+      "type" : "text/html"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "<table width=\"650\"><tbody><tr><td width=\"650\"><div style=\"width:650px\"> <img src=\"http://creatives.commindo-media.de/static/smashing-magazine-advertisement.gif\" alt=\"Smashing-magazine-advertisement in Is John The Client Dense or Are You Failing Him?\" border=\"0\"><br> <a href=\"http://creatives.commindo-media.de/www/delivery/ck.php?zoneid=56\"></a> <a href=\"http://creatives.commindo-media.de/www/delivery/ck.php?zoneid=63\"></a> <a href=\"http://creatives.commindo-media.de/www/delivery/ck.php?zoneid=64\"></a></div></td></tr></tbody></table><p>Meet John the client. John runs a reasonably large website. He is a marketer who considers himself smart, articulate and professional. That said, he doesn’t know much about Web design, and so he needs your help. John comes to you with a clear set of business objectives and asks for a quote. But what happens next leaves John confused, frustrated and extremely unhappy.</p><p>[Offtopic: by the way, have you ever visited Smashing Magazine's <a href=\"http://creatives.commindo-media.de/www/delivery/ck.php?oaparams=2__bannerid=1248__zoneid=0__cb=0fc35035eb__oadest=http%3A%2F%2Fwww.smashingmagazine.com%2Ftagcloud%2F\">List of tags</a>? There might be something interesting for you.]</p><h3>Explain Why You Are Asking About Money</h3><p>Before giving John his quote, you ask a little more about the project. After chatting for a few minutes, you ask him about his <strong>budget</strong>. A fair question, you think. After all, you could approach the project in so many ways. Without knowing the budget, knowing where to begin is impossible. In your mind, building a website is like building a house. Without knowing the budget, you can’t possibly know how many rooms the client can afford or what materials you should use to build.</p><p>John, on the other hand, is instantly suspicious. Why would you want to know about his budget? The only reason he can think of is that you want to make sure you don’t charge him less than what he is willing to give. Besides, he doesn’t really know his budget. How the heck is he supposed to know how much a website costs?</p><p><img src=\"http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2010/02/money-20100210-1629242.jpg\" width=\"599\" height=\"327\" alt=\"Money-20100210-1629242 in Is John The Client Dense or Are You Failing Him?\"><br> <em>Don’t come across as money-grubbing.</em> (<a href=\"http://flic.kr/p/6eyE3T\">Image credit</a>)</p><p>John leaves, determined to find a Web designer who doesn’t want to take advantage of him. Fortunately for you, all of the other designers he speaks with also neglect to explain why they need to know about his budget, and so you manage to win the project after all.</p><h3>Justify Your Recommendations In Language John Can Understand</h3><p>Once you have won the job, you arrange a kick-off meeting to <strong>nail down the specifications</strong>. However, John instantly regrets his decision to hire you because his worse fears have been confirmed. In his eyes, you are all of a sudden trying to squeeze more money out of him as you waffle about the importance of usability and accessibility. John doesn’t care about disabled users. He doesn’t expect disabled users to visit his website anyway.</p><p>And as for usability, surely the job of the Web designer is to make the website usable. Why do we need expensive usability testing? He is pretty certain that usability testing involves expensive things like cameras, labs and two-way mirrors. You thought you had explained these issues clearly. You spoke of WCAG 2, and you mentioned Jakob Neilsen. You are beginning to wonder if John is a bit thick.</p><p><img src=\"http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2010/02/confused-20100210-1632551.jpg\" width=\"600\" height=\"335\" alt=\"Confused-20100210-1632551 in Is John The Client Dense or Are You Failing Him?\"><br><em>Avoid techno-babble if you expect clients to understand what you’re talking about.</em> (<a href=\"http://flic.kr/p/frJ48\">Image credit</a>)</p><p>Perhaps if you had talked about accessibility in terms of assessing search engine rankings and testing usability as a way to increase conversion, then John might have listened. As it is, John puts his foot down and refuses to pay for any of these “unnecessary extras.”</p><h3>Include John In The Process</h3><p>You walk away from the kick-off meeting pleased to have a signed contract. But that feeling in the pit of your stomach tells you that this might be another one of those projects. Regardless, you try to be optimistic, and you dive into the design process. Almost immediately, you get a phone call from John asking if there is anything for him to see. You explain that it is still early in the process and that you are not ready to present anything. John sounds disappointed but resigned.</p><p>A short while later, you are ready to <strong>present the design</strong> to John. You are pleased with the result. It took you a lot more time than you had budgeted for, but it was worth it. The final design is extremely easy to use and will make for a great portfolio piece.</p><p><img src=\"http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2010/02/hide-20100210-1637471.jpg\" width=\"600\" height=\"263\" alt=\"Hide-20100210-1637471 in Is John The Client Dense or Are You Failing Him?\"><br> <em>Stop hiding from your clients. Show them your work early on, and include them in the process.</em> (<a href=\"http://flic.kr/p/4n6M23\">Image credit</a>)</p><p>When John sees the design, he is horrified. From his perspective, you have entirely missed the point. The design clashes with his offline marketing materials and doesn’t hit the right selling points. Also, he is convinced that his suppliers will hate it and, although they are not his end users, their opinion matters.</p><p>After a tense conference call, you feel demoralized but have struck a compromise that hopefully will make John happy. You wonder in hindsight whether showing John some of your initial ideas and sketches would have been better. Perhaps you should have presented a wireframe first.</p><h3>Educate John About Design</h3><p>After much agonizing and compromise, you are once again ready to present to John. John is much happier with the new design and feels it is heading in the right direction. However, he does have some concerns. For starters, he has to scroll to see most of the content, and yet white space takes up either side of the design. He tells you to move key content into this wasted space. Also, as he thinks about his young male target audience, he realizes that the color scheme is too effeminate, so he tells you to change it to blue.</p><p>While John feels somewhat happier, you feel crushed. You feel as though he is trying to do the job for you. The instructions to move this there and change this color to that makes you feel like you have been reduced to pushing pixels.</p><p><img src=\"http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2010/02/Teaching-20100210-164155.jpg\" width=\"600\" height=\"303\" alt=\"Teaching-20100210-164155 in Is John The Client Dense or Are You Failing Him?\"><br> <em>Educate your clients so they make more informed decisions.</em> (<a href=\"http://flic.kr/p/Hf2E7\">Image credit</a>)</p><p>By this point, you are sure the client is dim, and now you just want him to sign off on a design. At no stage do you think to ask John <strong>why he is requesting these changes</strong>. Perhaps if you had appreciated his thinking, you could have explained concepts such as screen resolution and suggested an alternative to corporate blue, which is so over-used on the Web.</p><p>Instead, you wash your hands of the design and just give John what he wants.</p><h3>Communicate With John Regularly</h3><p>Now that the design is complete, you turn your attention to building it. John certainly won’t care about your code. Now you can finally do things right.</p><p>It’s a big job and takes a lot of time. Even though you put too much time into the design and washed your hands of it, you still have your pride. You are not about to cut corners with the code. After all, other designers might look at it and judge you! You work really hard, putting in more work than you probably should have. John even manages to slip in some extra functionality at the scoping phase, which turns out to be a pain in the butt.</p><p>For his part, John is wondering what’s going on. He hasn’t heard from you in weeks. Surely the website must be ready now? He decides to email you to ask how things are progressing. You reply with a short email telling him that everything is progressing smoothly. You never did like project management, and you are sure John would prefer that you spend time building his website instead of writing him detailed reports.</p><p>John receives your email and is becoming increasingly frustrated. What does “progressing smoothly” mean? He writes back asking for an expected date of completion, and you reply with a rough estimate.</p><p>The date comes and goes without a word from you. After all, it was merely an estimate, and several complications have delayed completion by a few days. John finally loses his temper and calls you. He tells you that he has arranged a marketing campaign to coincide with the launch date, and because he hadn’t heard from you, he presumed everything was on schedule.</p><p><img src=\"http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2010/02/communication-20100210-1645141.jpg\" width=\"599\" height=\"322\" alt=\"Communication-20100210-1645141 in Is John The Client Dense or Are You Failing Him?\"><br> <em>Communicate with your client regularly.</em> (<a href=\"http://flic.kr/p/691uEj\">Image credit</a>)</p><p>You defend yourself, citing “scope creep” and unanticipated delays. But responding is difficult when John says, “All I needed was a weekly email keeping me up to date on progress.”</p><h3>Explain John’s Ongoing Role</h3><p>By this stage, the relationship has broken down entirely. You finish your work, and the website finally launches. Begrudgingly, John pays the invoice after delaying it for as long as possible. What amazes you most is John’s pronouncement that he is bitterly disappointed with the result. How can that be when you gave him exactly what he asked for? This guy isn’t just thick: he’s a jerk!</p><p>Of course, John sees things differently. He came to you with a list of his business objectives, and the website has failed to meet any of them. He had hoped to launch the website, watch it <strong>achieve his objectives</strong> and then move on to the next project. Instead, after an initial spike in interest, the number of users and inquiries dropped over time, and the website stagnated.</p><p><img src=\"http://media.smashingmagazine.com/cdn_smash/wp-content/uploads/2010/02/seedling-20100210-164927.jpg\" width=\"600\" height=\"397\" alt=\"Seedling-20100210-164927 in Is John The Client Dense or Are You Failing Him?\"><br> <em>Ensure that your client understands what kind of ongoing care their website will need.</em> (<a href=\"http://flic.kr/p/68QFDp\">Image credit</a>)</p><p>What John does not realize is that websites need continued love and support. You cannot build a website and then abandon it. John has to nurture it by adding new content, engaging with visitors and planning for ongoing development.</p><p>If only someone had told him.</p><h3>The Moral Of The Story</h3><p>It’s amazing how quick we are to judge our clients.</p><p>As Web designers, we communicate and empathize for a living. Our job is to communicate messages to our clients’ users. We create usable websites by putting ourselves in the position of our users, which allows us to design around their needs.</p><p>Why, then, do we so often seem to be incapable of empathizing or communicating with our clients? Perhaps it is time for us to apply the skills we have cultivated as Web designers to our own customers.</p><p><em>(al)</em></p><hr><p><small>© Paul Boag for <a href=\"http://www.smashingmagazine.com\">Smashing Magazine</a>, 2010. | <a href=\"http://www.smashingmagazine.com/2010/02/19/is-john-the-client-dense-or-are-you-failing-him/\">Permalink</a> | <a href=\"http://www.smashingmagazine.com/2010/02/19/is-john-the-client-dense-or-are-you-failing-him/#comments\">29 comments</a> | <a title=\"Bookmark in del.icio.us\" href=\"http://del.icio.us/post?url=http://www.smashingmagazine.com/2010/02/19/is-john-the-client-dense-or-are-you-failing-him/&amp;title=Is%20John%20The%20Client%20Dense%20or%20Are%20You%20Failing%20Him?\">Add to del.icio.us</a> | <a title=\"Bookmark in Digg\" href=\"http://digg.com/submit?phase=2&amp;url=http://www.smashingmagazine.com/2010/02/19/is-john-the-client-dense-or-are-you-failing-him/\">Digg this</a> | <a title=\"Stumble on StumbleUpon\" href=\"http://www.stumbleupon.com/submit?url=http://www.smashingmagazine.com/2010/02/19/is-john-the-client-dense-or-are-you-failing-him/\">Stumble on StumbleUpon!</a> | <a title=\"Tweet us!\" href=\"http://twitter.com/home?status=@tweetmeme%20@smashingmag%20Reading%20&#39;Is%20John%20The%20Client%20Dense%20or%20Are%20You%20Failing%20Him?&#39;%20http://www.smashingmagazine.com/2010/02/19/is-john-the-client-dense-or-are-you-failing-him/\">Tweet it!</a> | <a title=\"Bookmark in Reddit\" href=\"http://reddit.com/submit?url=http://www.smashingmagazine.com/2010/02/19/is-john-the-client-dense-or-are-you-failing-him/\">Submit to Reddit</a> | <a href=\"http://forum.smashingmagazine.com/\">Forum Smashing Magazine</a><br> Post tags: <a href=\"http://www.smashingmagazine.com/tag/clients/\" rel=\"tag\">clients</a><br> </small></p>"
+    },
+    "comments" : [ ],
+    "annotations" : [ {
+      "content" : "By far one of the best articles I have read on client relationships. Short and easy, just how I like to read. Without a doubt, I've found myself as a culprit of a fair few of these communication failures and has definitely allowed me to see improvements to my workflow.",
+      "author" : "balupton",
+      "userId" : "14778993901569235562",
+      "profileId" : "117485112588440259770"
+    } ],
+    "origin" : {
+      "streamId" : "user/14778993901569235562/source/com.google/link",
+      "title" : "Smashing Magazine Feed",
+      "htmlUrl" : "http://www.smashingmagazine.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1249775255910",
+    "timestampUsec" : "1249775255910345",
+    "id" : "tag:google.com,2005:reader/item/afc0a666982d483a",
+    "categories" : [ "user/14778993901569235562/source/com.google/link", "user/14778993901569235562/state/com.google/broadcast", "user/14778993901569235562/state/com.google/read" ],
+    "title" : "My Google Profile",
+    "published" : 1249775255,
+    "updated" : 1249775255,
+    "related" : [ {
+      "href" : "http://www.google.com/profiles/",
+      "title" : "Google Profiles"
+    } ],
+    "alternate" : [ {
+      "href" : "http://www.google.com/profiles/balupton",
+      "type" : "text/html"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "Check out my <a href=\"http://www.google.com/profiles/balupton\">new Google profile</a>."
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "user/14778993901569235562/source/com.google/link",
+      "title" : "Google Profiles",
+      "htmlUrl" : "http://www.google.com/profiles/"
+    }
+  } ]
+}

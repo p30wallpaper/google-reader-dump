@@ -1,0 +1,45 @@
+{
+  "friends" : [ {
+    "userIds" : [ "14778993901569235562" ],
+    "profileIds" : [ "117485112588440259770" ],
+    "contactId" : "-1",
+    "photoUrl" : "/s2/photos/public/AIbEiAIAAABECLqZxZ2lqObT8gEiC3ZjYXJkX3Bob3RvKig4OTNkMDJkNjFhMWUwYTM0MDdjZTViNjc2NWFlMmVhMzAzMDM5ZDU2MAEqIqteZtLl6_VK65T2Uozr44j0ig",
+    "location" : "Perth, Australia",
+    "stream" : "user/14778993901569235562/state/com.google/broadcast",
+    "flags" : 33,
+    "displayName" : "Benjamin Lupton",
+    "givenName" : "Benjamin",
+    "n" : "",
+    "p" : "",
+    "occupation" : "Courageous Web 2.0 Architect, Entrepreneur, ENTP/Inventor. Always learning and improving; appreciates the entire journey; loves life.",
+    "websites" : [ {
+      "title" : "Twitter",
+      "url" : "http://twitter.com/balupton"
+    }, {
+      "title" : "Buzz",
+      "url" : "https://profiles.google.com/117485112588440259770/buzz"
+    }, {
+      "title" : "Resume",
+      "url" : "http://careers.stackoverflow.com/balupton"
+    }, {
+      "title" : "Photos",
+      "url" : "http://picasaweb.google.com/balupton"
+    }, {
+      "title" : "Reader",
+      "url" : "http://www.google.com/reader/shared/14778993901569235562"
+    }, {
+      "title" : "Projects",
+      "url" : "https://github.com/balupton"
+    }, {
+      "title" : "Website",
+      "url" : "http://balupton.com"
+    }, {
+      "title" : "Facebook",
+      "url" : "http://www.facebook.com/balupton"
+    }, {
+      "title" : "Benjamin Lupton",
+      "url" : "http://www.youtube.com/user/balupton"
+    } ],
+    "hasSharedItemsOnProfile" : true
+  } ]
+}

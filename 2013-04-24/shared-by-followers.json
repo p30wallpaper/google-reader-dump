@@ -1,0 +1,1236 @@
+{
+  "id" : "user/14778993901569235562/state/com.google/broadcast-friends",
+  "title" : "\"broadcast-friends\" via balupton in Google Reader",
+  "author" : "balupton",
+  "updated" : 1319816191,
+  "direction" : "ltr",
+  "items" : [ {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1319816191373",
+    "timestampUsec" : "1319816191373323",
+    "id" : "tag:google.com,2005:reader/item/7400c384613de35d",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast", "Announcements" ],
+    "title" : "Announcing ThemeRoller for Mobile (beta)",
+    "published" : 1319804660,
+    "updated" : 1319804660,
+    "alternate" : [ {
+      "href" : "http://jquerymobile.com/blog/2011/10/28/announcing-themeroller-for-mobile-beta/",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "<p><a style=\"float:right;margin:0 0 10px 30px\" href=\"http://jquerymobile.com/themeroller/\"><img title=\"themroller-mobile-logo\" src=\"http://jquerymobile.com/wp-content/uploads/2011/10/themroller-mobile-logo.png\" alt=\"\" width=\"359\" height=\"122\"></a></p>\n<p style=\"font-size:18px\">We’re excited to announce the release of the new <strong>ThemeRoller for Mobile</strong> tool. ThemeRoller is a web-based tool that makes it super simple to create custom themes without writing a single line of CSS.</p>\n<p>If you’re familiar with the jQuery UI ThemeRoller, the basics of the tool are pretty similar: there’s a inspector panel on the left of the screen that has all the theme settings, and a preview pane on the right that shows you in real-time each change you make. But there are some big improvements in the new mobile version which we’ll cover below.</p>\n<p>Once you create your masterpiece, you can share it via URL or download a ZIP file with your custom theme stylesheet, ready for production (or additional tweaking).</p>\n<p><a style=\"float:right;margin:0 0 10px 30px\" href=\"http://jquerymobile.com/themeroller\"><img style=\"border:1px solid #ccc\" title=\"themeroller mobile\" src=\"http://jquerymobile.com/wp-content/uploads/2011/10/themeroller-mobile-1024x587.png\" alt=\"\" width=\"390\"></a></p>\n<p>This is so beta, we’re not even going to add the flag. Have fun playing and please <a href=\"https://github.com/jquery/web-jquery-mobile-theme-roller/issues\">flag issues</a> in the tracker so we can improve the tool.</p>\n<h2>Themes &amp; swatches</h2>\n<p>The Mobile theme framework and ThemeRoller Mobile allow you to create up to 26 unique color “swatches” within a single theme (the UI version essentially has a single swatch). Each swatch defines the look and feel for a bar, content block and a button with normal, hover and pressed interaction states.</p>\n<p>Within your site or app, you assign swatch letters to individual elements on a page to mix and match swatch colors for really rich designs.  Swatches are assigned a single letter from a-z which allows people to share themes easily (unlike unique class names) and flexibly combine swatches on a page. For example, you can assign swatch A to one button and swatch K to another button to make a visual distinction between them.</p>\n<h2>Global settings</h2>\n<p>In addition to creating sets of swatches, there are powerful global configuration options to quickly set the font family, active (on) state color, corner radii for groupings and buttons, icon and shadow styles in one centralized place.</p>\n<p><a style=\"float:right;margin:20px 0 10px 30px\" href=\"http://jquerymobile.com/themeroller\"><img title=\"themeroller-mobile-gradients\" src=\"http://jquerymobile.com/wp-content/uploads/2011/10/themeroller-mobile-gradients.png\" alt=\"\" width=\"340\"></a></p>\n<h2>Gradient tools</h2>\n<p>In the left hand inspector panel, there is a slick tool to create the CSS-based gradients we use throughout the themes. In simple mode you can pick a single color, then drag a slider to choose how deep of a convex or concave gradient you want, or leave the slider in the middle position for a flat appearance.</p>\n<p>Click the “+” icon to expand into advanced mode and customize the gradient colors individually for both points.</p>\n<h2>Preview inspector and QuickSwatch bar</h2>\n<p>Above the preview panel, there are two cool tools that make it even easier to build a theme: the preview inspector tool and the QuickSwatch Bar.</p>\n<p><a href=\"http://jquerymobile.com/themeroller\"><img title=\"themeroller-mobile-quickswatch\" src=\"http://jquerymobile.com/wp-content/uploads/2011/10/themeroller-mobile-quickswatch.png\" alt=\"\" width=\"100%\"></a></p>\n<p>First, when the <strong>preview inspector </strong>toggle is on, it allows you to simply click on an element in the preview panel and have the relevant section of the lefthand inspector panel open for editing so there’s no need to hunt around for the right settings.</p>\n<p>An even more exciting feature is the <strong>QuickSwatch bar</strong>. This has a preset spectrum of colors that can be dragged and dropped directly onto an element in the preview pane to re-color it. The lightness and saturation sliders make it easy to shift the color spectrum around to find the right colors. To the right of the spectrum, we display the last few colors you’ve used for quick re-use. These colors can also be dragged and dropped into the color picker wells in the lefthand inspector panel for even more power.</p>\n<p>A lot of magic is at work here: by dropping a single color onto an element, the tool with automatically calculate the two related gradient colors, border color, and text colors for good contrast (you can fine-tune these in the left panel). By dropping a color on a button/listview, the tool calculates all these colors for the default, hover and pressed states of a button automatically which is a huge timesaver. You can spend your time trying color combinations, not tweaking a million settings.</p>\n<h2>Adobe Kuler Integration</h2>\n<p>Picking a color palette that works well together is tricky business but we’ve made it easy by adding pre-made themes created on Adobe’s fantastic <a href=\"http://kuler.adobe.com/\">Kuler app</a> right into ThemeRoller. Kuler is a great site focused on letting people create, share and rate color palettes.</p>\n<p><a href=\"http://jquerymobile.com/wp-content/uploads/2011/10/themeroller-mobile-kuler.png\"><img title=\"themeroller-mobile-kuler\" src=\"http://jquerymobile.com/wp-content/uploads/2011/10/themeroller-mobile-kuler.png\" alt=\"\" width=\"579\" height=\"92\"></a></p>\n<p>If you’re looking for inspiration, simply click on the Kuler link in the QuickSwatch palette and you can browse the latest, most popular or highest rated color combinations from Kuler, or search by tag, title or color. From there, just drag and drop the colors onto widgets in the preview pane to quickly create a great-looking theme in a snap.</p>\n<h2>Sharing URLs</h2>\n<p>The jQuery UI ThemeRoller tool used URLs to track every step in your creation history and also make it easy to share and load themes by sending those URLs around. We think sharing themes is important to get feedback and allows others to play with your creations but the sheer complexity of the Mobile themes couldn’t be represented in a URL. Our solution is to store the theme on our server and create a unique URL that allows you to post a theme link and allows other to edit or download a copy of the theme (yours won’t be touched). For example, <a href=\"http://jquerymobile.com/themeroller/index.php?style_id=20111028-2\">check out this theme I created</a>.</p>\n<p>Note: To keep our server from getting stuffed with themes, we’re only going to store theme links for 30 days so you’ll need to download a copy for the long term.</p>\n<h2>Downloading and importing</h2>\n<p>Once you have created your final theme, simply click the <strong>Download Theme</strong> link at the top of the inspector panel to generate a zip file that contains both the compressed (production-ready) and uncompressed (editable) theme files and a simple test page (index.html) to show that everything worked (whew) and instructions on how to add the theme to your site. It’s pretty simple: link your custom theme in the head of the page followed by the jQuery Mobile structure theme and you’re ready to go.</p>\n<p>To import a theme, just click the <strong>Import</strong> link and paste the entire contents of the uncompressed theme file into the text input in the dialog, and the system will parse the theme into an editable format for sharing and downloading.</p>\n<h2>A word of thanks</h2>\n<p>This tool came to be through the continued generosity of our sponsor <a href=\"http://www.adobe.com/\">Adobe</a> who dedicated the development time of  <a href=\"https://twitter.com/#!/tybenz\">Tyler Benziger</a> to work exclusively on ThemeRoller for the last 6+ months. Tyler did a fantastic job taking a handful of designs and creating a rock solid tool with lots of creative ideas that exceeded all our expectations.</p>\n<h2>Give it a try!</h2>\n<p>Enough talking, jump in and start building your first theme at:<br>\n<a href=\"http://www.jquerymobile.com/themeroller\">www.jquerymobile.com/themeroller</a></p>\n<h2>ThemeRoller Source: Open Source</h2>\n<p>One more thing: the complete source code for the new jQuery Mobile ThemeRoller tool is open source under the standard jQuery project licenses for you to improve, remix and build into your apps. The core tool is designed to work completely client-side to make it easy to drop into your code — only the download and sharing features require a bit of PHP. Go forth and <a href=\"https://github.com/jquery/web-jquery-mobile-theme-roller\">fork it on GitHub</a>.</p>"
+    },
+    "author" : "Todd Parker",
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://jquerymobile.com/feed/",
+      "title" : "jQuery Mobile",
+      "htmlUrl" : "http://jquerymobile.com"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1319644891294",
+    "timestampUsec" : "1319644891294782",
+    "id" : "tag:google.com,2005:reader/item/329023f7a7e2ec17",
+    "categories" : [ "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast", "user/14778993901569235562/state/com.google/read", "Development" ],
+    "title" : "State of the jQuery UI Grid",
+    "published" : 1319641857,
+    "updated" : 1319641857,
+    "alternate" : [ {
+      "href" : "http://blog.jqueryui.com/2011/10/state-of-the-jquery-ui-grid/",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "<p>We <a href=\"http://blog.jqueryui.com/2011/02/unleash-the-grid/\">announced the Grid project</a> back in February. Since then, we finished the first three stages and are now getting started on the fourth. In this post we’ll take a look at what we’ve built so far.</p>\n<h3><a href=\"http://wiki.jqueryui.com/w/page/47182351/Grid-Widget\">Grid</a></h3>\n<p>This is what we designed as the “zero feature grid”. All it does is enhance HTML tables, but it does that pretty well while also providing the right hooks for all kinds of other features that we can add on top of that. And that turns out to be really useful, as there are a bunch of things that regular HTML tables can’t do. With Grid, you get:</p>\n<ul>\n<li>styling with the CSS framework, making it ThemeRoller-ready</li>\n<li>a proper titlebar, based on the table’s caption</li>\n<li>markup and styles necessary for scrolling of the table body, while keeping the header fixed</li>\n</ul>\n<p>The API for the Grid controls what content to render, and how to present it:</p>\n<ul>\n<li>The <strong>columns</strong> option specifies which columns to render. If not specified, it picks up existing table header elements.</li>\n<li>The <strong>rowTemplate</strong> option allows the grid to render each row from a custom template. If this option is not provided, each row is generated based on the columns option.</li>\n<li>The <strong>source</strong> option specifies the content to render, in the form of a plain array of objects. When not specified, existing table rows are used.</li>\n<li>By default, the grid’s body grows with the number of rows. With <strong>heightStyle</strong>: ‘fill’, it stays at a fixed height and the body starts scrolling if there are more rows.</li>\n<li>When picking up column information from the existing table headers, certain data-attributes are read. The grid itself uses only the data-property attribute (and the actual text of each header cell), but the <strong>dataFields</strong> option specifies a few more attributes that other components can use, such as “type”, “culture” and “format” to configure local sorting and filtering. If a grid add-on handles other data attributes, adding those to the dataFields option will make them automatically available as part of the columns option.</li>\n</ul>\n<p>So far we only have <a href=\"http://view.jqueryui.com/grid/grid-spf/grid-plain.html\">an enhanced table</a>, but often enough, a grid needs to be fed data from some remote resource. That’s where Dataview comes in.</p>\n<h3><a href=\"http://wiki.jqueryui.com/w/page/47179141/Dataview\">Dataview</a></h3>\n<p>Dataview is a low-level abstraction for retrieving content. It has an API for specifying what content to retrieve, and an SPI (service provider interface), implemented by components that provide that content. There are built-in options for filtering, sorting and paging, and the design makes it easy to add more options, like grouping. The API is asynchronous by default, even for local data, so that all components relying on Dataview can work with both local and remote data.</p>\n<p>Dataview only depends on Widget and Observable (we’ll get to that below), but not on Grid. This allows Dataview to be used in a variety of contexts. For example it could power a product listing, such as those on eBay or Amazon, where a table presentation is not the right format.</p>\n<p>The Dataview SPI makes it easy to write implementations from scratch as well as to create reusable extensions.</p>\n<p>As an example, we can use a <a href=\"http://view.jqueryui.com/grid/grid-spf/autocomplete.html\">custom dataview as the input for the Autocomplete widget</a>. The same data is also displayed in the grid below the input field. This demonstrates how a Dataview can be used in multiple representations, where each decides on its own what data to show.</p>\n<p>As for reusable extensions, we currently have three implemented:</p>\n<ol>\n<li><a href=\"http://view.jqueryui.com/grid/ui/jquery.ui.dataviewlocal.js\">localDataview</a> takes an input array and does sorting, paging and filtering on that array. It uses Globalize (see below) to implement filtering and sorting of localized numbers and dates. When combined with the grid on a table with existing content (without specifying the source option), you get a <a href=\"http://view.jqueryui.com/grid/grid-spf/tablesorter.html\">complete tablesorter</a>.</li>\n<li><a href=\"http://view.jqueryui.com/grid/grid-spf/dataview-odata.js\">odataDataview</a> takes a resource URL, pointing at a webservice that understands <a href=\"http://www.odata.org/\">OData, the Open Data Protocol</a>. While our implementation doesn’t yet cover all of the OData options, you can use it to sort, filter and page, without having to implement any custom request/response mapping. We have an example of a <a href=\"http://view.jqueryui.com/grid/grid-spf/movies.html\">grid using the OData based Netflix API</a>.</li>\n<li><a href=\"http://view.jqueryui.com/grid/grid-spf/dataview-preloader.js\">preloaderDataview</a> wraps a Dataview and adjusts the paging behaviour to load more data than rendered, paging locally before preloading another batch. In this <a href=\"http://view.jqueryui.com/grid/grid-spf/slideshow-preloader.html\">Flickr API slideshow example</a> we preload both the API responses and the actual images. This pushes all the loading in the background, allowing the user to page through images without interruptions.</li>\n</ol>\n<p>All three need testing in actual projects before we can consider them stable. We’re also looking for other use cases for dataview that we might be missing.</p>\n<h3><a href=\"http://wiki.jqueryui.com/w/page/47179578/Observable\">Observable</a></h3>\n<p>Data binding is currently a common theme among newer JavaScript frameworks, with various competing solutions available. We don’t yet have a full-featured alternative, but we’ve developed a low-level abstraction that might power a data binding component in the future. We call this abstraction Observable. It provides an API for making changes on plain JavaScript objects and arrays that can be observed by listening to events that each change triggers. We’ve designed Observable to have a very small number of methods and events, with the purpose of making it easy to implement the same API in other contexts. These events are:</p>\n<ul>\n<li>change: Triggered on objects after one or more properties have changed.</li>\n<li>insert: Triggered on arrays after inserting one or more new items.</li>\n<li>remove: Triggered on arrays after removing one or more items.</li>\n<li>replaceAll: Triggered on arrays after replacing all items in an array.</li>\n</ul>\n<p>That last event may seem odd at first, but this makes it possible to create a dataview, pass it to a grid, have the grid subscribe to events on that dataview’s output array, and then update itself when the dataview updates.</p>\n<p>For all four events, Observable provides method counterparts:</p>\n<ul>\n<li>property: to work on objects</li>\n<li>insert, remove and replaceAll: to work on arrays.</li>\n</ul>\n<p>Usage is consistent in both cases:</p>\n<ul>\n<li>$.observable( object ).property( “name”, “Fred” );</li>\n<li>$.observable( array ).insert({ name: “Peter” });</li>\n</ul>\n<p>We’re still working on Observable. The next step is to find an abstraction for the array bindings, which would remove some overhead both from the Grid as well as from the <a href=\"http://view.jqueryui.com/grid/grid-editing/todo-app.html\">todo-app demo</a>.</p>\n<p>When combining Observable with the Grid, we can easily add editing capabilities. <a href=\"http://view.jqueryui.com/grid/grid-editing/grid.html\">In our grid editing demo</a>, you can add, edit and remove developers from the table. Results are persisted via localStorage.</p>\n<p>Instead of adding custom columns that have “Edit” and “Remove” buttons, we can <a href=\"http://view.jqueryui.com/grid/grid-editing/grid-selectable.html\">use the selectable interaction to select one or more rows</a> and then interact with the selection. In that demo, the <code>selected</code> array is also an observable array, which the second grid displays. Note that you can select rows on one page, go to the next page (you may need to add a few developers for a second page to show up), select more rows with command/ctrl-click (to extend the selection) and it will display all those rows in the second grid. The selected state is separated from the visual representation, making selection over multiple pages pretty easy.</p>\n<h3><a href=\"https://github.com/jquery/globalize\">Globalize</a></h3>\n<p>Globalize originally started as the jquery-global plugin. We rewrote it as part of the Grid project to be independent of jQuery, allowing usage on both client and <a href=\"http://search.npmjs.org/#/globalize\">server</a>. Our localDataview implementation (mentioned above) uses it, and its also behind custom inputs like <a href=\"http://wiki.jqueryui.com/w/page/12138077/Spinner\">Spinner</a> and <a href=\"http://wiki.jqueryui.com/w/page/12138092/Timepicker\">Timepicker</a>.</p>\n<h3><a href=\"http://wiki.jqueryui.com/w/page/12137996/Mask\">Mask</a>, <a href=\"http://wiki.jqueryui.com/w/page/12138092/Timepicker\">Timepicker</a>, <a href=\"http://wiki.jqueryui.com/w/page/12138056/Selectmenu\">Selectmenu</a></h3>\n<p>These three custom inputs are being developed as part of the Grid project. They are intended to be used within the Grid for inline editing, as well as standalone in regular forms or websites. We’re getting close to landing all three in master, to release them as part of 1.9.</p>\n<h3>And more…</h3>\n<p>Work is still in progress on <a href=\"http://wiki.jqueryui.com/w/page/37898666/Template\">Template</a>, <a href=\"http://wiki.jqueryui.com/w/page/12137778/Datepicker\">Datepicker</a> and other <a href=\"http://wiki.jqueryui.com/w/page/40076546/Grid-CustomInputs\">Custom Inputs</a>. We’ll report back on those once we have more stable solutions.</p>\n<h3>Up next</h3>\n<p>We’re finishing existing components and are starting on Stage 4. For details, <a href=\"http://wiki.jqueryui.com/w/page/34246941/Grid#Stage4GridAddons\">check out the main Grid wiki page</a>.</p>\n<h3>So, when is it done?</h3>\n<p>Our <a href=\"http://wiki.jqueryui.com/w/page/12138038/Roadmap\">Roadmap</a> has the Grid on the 2.1 release, while the main focus for jQuery UI is on 1.9. In other words, there is a lot that needs to get done before we can put the Grid into a stable release and support it along with all the other components. At the same time, we encourage you to start testing the features outlined above now. Grid, Observable and Dataview are all pretty stable and working well. Globalize is a separate project that you should start using now if you want to support localized number and date handling on the clientside.</p>\n<p>We value your input and help. Please use the <a href=\"http://forum.jquery.com/developing-jquery-ui\">Developing jQuery UI forum</a>, comment on individual wiki pages or visit us on IRC (#jqueryui-dev on Freenode). If you found a solution to an issue, <a href=\"http://github.com/jquery/jquery-ui/pulls\">send a pull request</a>.</p>"
+    },
+    "author" : "Jörn Zaefferer",
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://feeds2.feedburner.com/jquery-ui",
+      "title" : "jQuery UI Blog",
+      "htmlUrl" : "http://blog.jqueryui.com"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1319323149538",
+    "timestampUsec" : "1319323149538603",
+    "id" : "tag:google.com,2005:reader/item/af435e1711032ecc",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast" ],
+    "title" : "The Venn Piagram",
+    "published" : 1319213846,
+    "updated" : 1319213846,
+    "alternate" : [ {
+      "href" : "http://bullshit.tumblr.com/post/11735275441",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<img src=\"http://24.media.tumblr.com/tumblr_ltfbx2h2yb1qz4gpro1_500.jpg\"><br><br><p><a href=\"http://www.reddit.com/r/pics/comments/g8nxo/i_realize_its_a_bit_late_for_pi_day_but_heres_my/\">The Venn Piagram</a></p>"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://bullshit.tumblr.com/rss",
+      "title" : "The Triumph of Bullshit",
+      "htmlUrl" : "http://bullshit.tumblr.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1319106189473",
+    "timestampUsec" : "1319106189473450",
+    "id" : "tag:google.com,2005:reader/item/edbfdeabf57b528d",
+    "categories" : [ "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast", "user/14778993901569235562/state/com.google/read", "image" ],
+    "title" : "(Image)",
+    "published" : 1319101526,
+    "updated" : 1319101526,
+    "enclosure" : [ {
+      "href" : "http://4.asset.soup.io/asset/2462/8452_1803.gif",
+      "type" : "image/jpeg",
+      "length" : "0"
+    } ],
+    "alternate" : [ {
+      "href" : "http://soup.johl.io/post/181799956/Image",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<p><a href=\"http://kyberia.eu/id/6274327/\"><img alt=\"8452_1803\" height=\"240\" src=\"http://4.asset.soup.io/asset/2462/8452_1803.gif\" width=\"360\"></a></p> <p></p><p>[Reposted from <span><a href=\"http://samuso.soup.io/post/179962422/Image\"><span>samuso</span></a></span> via <span><a href=\"http://wizard23.soup.io/post/180809477/Image\"><span>wizard23</span></a></span>]</p>"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://soup.johl.io/rss",
+      "title" : "Tumble upon johl",
+      "htmlUrl" : "http://soup.johl.io/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1318185846800",
+    "timestampUsec" : "1318185846800494",
+    "id" : "tag:google.com,2005:reader/item/1f6e59fb30b62eb5",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast" ],
+    "title" : "\"The Sisterhood 7\" - Sun, 09 Oct 2011",
+    "published" : 1318143600,
+    "updated" : 1318143600,
+    "alternate" : [ {
+      "href" : "http://sinfest.net/archive_page.php?comicID=4051",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<img src=\"http://sinfest.net/comikaze/comics/2011-10-09.gif\" border=\"0\" alt=\"The Sisterhood 7\">"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://henrik.nyh.se/scrapers/sinfest.rss",
+      "title" : "Sinfest",
+      "htmlUrl" : "http://www.sinfest.net"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1317749512321",
+    "timestampUsec" : "1317749512321969",
+    "id" : "tag:google.com,2005:reader/item/020048e28ec00f6a",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast" ],
+    "title" : "Comic for October 4, 2011",
+    "published" : 1317704400,
+    "updated" : 1317704400,
+    "canonical" : [ {
+      "href" : "http://dilbert.com/strips/comic/2011-10-04/"
+    } ],
+    "alternate" : [ {
+      "href" : "http://feedproxy.google.com/~r/DilbertDailyStrip/~3/tjda3siNyCo/",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<img src=\"http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/100000/30000/7000/600/137629/137629.strip.print.gif\" border=\"0\"><p><iframe src=\"http://feedads.g.doubleclick.net/~ah/f/bda66t01h6cudmiae15knqhj18/468/60#http%3A%2F%2Fdilbert.com%2Fstrips%2Fcomic%2F2011-10-04%2F\" width=\"100%\" height=\"60\" frameborder=\"0\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\"></iframe></p><img src=\"http://feeds.feedburner.com/~r/DilbertDailyStrip/~4/tjda3siNyCo\" height=\"1\" width=\"1\">"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://feeds.feedburner.com/DilbertDailyStrip",
+      "title" : "Dilbert Daily Strip",
+      "htmlUrl" : "http://dilbert.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1316598429075",
+    "timestampUsec" : "1316598429075074",
+    "id" : "tag:google.com,2005:reader/item/cb6e7239a4b40745",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/starred", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast" ],
+    "title" : "Comic for September 21, 2011",
+    "published" : 1316581200,
+    "updated" : 1316581200,
+    "canonical" : [ {
+      "href" : "http://dilbert.com/strips/comic/2011-09-21/"
+    } ],
+    "alternate" : [ {
+      "href" : "http://feedproxy.google.com/~r/DilbertDailyStrip/~3/KSeGwrBX0wk/",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<img src=\"http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/100000/30000/5000/500/135557/135557.strip.print.gif\" border=\"0\"><p><iframe src=\"http://feedads.g.doubleclick.net/~ah/f/bda66t01h6cudmiae15knqhj18/468/60#http%3A%2F%2Fdilbert.com%2Fstrips%2Fcomic%2F2011-09-21%2F\" width=\"100%\" height=\"60\" frameborder=\"0\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\"></iframe></p><img src=\"http://feeds.feedburner.com/~r/DilbertDailyStrip/~4/KSeGwrBX0wk\" height=\"1\" width=\"1\">"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://feeds.feedburner.com/DilbertDailyStrip",
+      "title" : "Dilbert Daily Strip",
+      "htmlUrl" : "http://dilbert.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1316437244048",
+    "timestampUsec" : "1316437244048380",
+    "id" : "tag:google.com,2005:reader/item/23c5db8a28decb5e",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast", "Uncategorized" ],
+    "title" : "The Brads - How Netflix is Getting Easier",
+    "published" : 1316432797,
+    "updated" : 1316432797,
+    "related" : [ {
+      "href" : "http://bradcolbow.com/archive/view/the_brads_-_how_netflix_is_getting_easier/"
+    } ],
+    "alternate" : [ {
+      "href" : "http://bradcolbow.com/archive/view/the_brads_-_how_netflix_is_getting_easier/#When:11:46:37Z",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<p><img src=\"http://s3.amazonaws.com/the_brads/the-brads-netflix.gif\" alt=\"netflix comic\">\n</p>"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://feeds2.feedburner.com/thebrads",
+      "title" : "The Brads - A Comic About Web Design",
+      "htmlUrl" : "http://bradcolbow.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1316271153219",
+    "timestampUsec" : "1316271153219988",
+    "id" : "tag:google.com,2005:reader/item/9a48b2c2df3331c0",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast", "image" ],
+    "title" : "(Image)",
+    "published" : 1316220208,
+    "updated" : 1316220208,
+    "enclosure" : [ {
+      "href" : "http://3.asset.soup.io/asset/2374/9651_6943_400.jpeg",
+      "type" : "image/jpeg",
+      "length" : "0"
+    } ],
+    "alternate" : [ {
+      "href" : "http://soup.johl.io/post/161747584/Image",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<p><a href=\"http://www.rebelart.net/diary/\"><img alt=\"9651_6943_400\" height=\"533\" src=\"http://3.asset.soup.io/asset/2374/9651_6943_400.jpeg\" width=\"400\"></a></p> <p></p><p>[Reposted from <span><a href=\"http://mogreens.soup.io/post/161107432/Image\"><span>mogreens</span></a></span> via <span><a href=\"http://hannes.soup.io/post/161706981/Image\"><span>hannes</span></a></span>]</p>"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://soup.johl.io/rss",
+      "title" : "Tumble upon johl",
+      "htmlUrl" : "http://soup.johl.io/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1315832789457",
+    "timestampUsec" : "1315832789457772",
+    "id" : "tag:google.com,2005:reader/item/be47dee01ec2f3f6",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast", "Javascript", "Open Source" ],
+    "title" : "Mobile: Unit Testing",
+    "published" : 1315821378,
+    "updated" : 1315821378,
+    "alternate" : [ {
+      "href" : "http://backstage.soundcloud.com/2011/09/mobile-unit-testing/",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "<p>When we started the Mobile project early 2011, unit testing JavaScript was one of the goals to tackle on the technical side. The history of custom JavaScript code at SoundCloud up until then rarely included unit tests, so providing references and the necessary ground research was important for both the project at hand as well as for other projects at SoundCloud.</p>\n<p>This articles aims to provide an overview of the tools we use, what worked well and what we need to improve.</p>\n<h2>Tools</h2>\n<p>When we started the Mobile project, there were just two developers on the team, <a href=\"http://soundcloud.com/matas\">Matas</a> and <a href=\"http://bassistance.de\">Jörn</a>. With Jörn already maintaining and supporting <a href=\"http://docs.jquery.com/QUnit\">QUnit</a> for three years, this particular choice was an easy one. If you haven’t yet heard of it: Among available unit testing frameworks, QUnit is among the most popular ones. There’s a <a href=\"http://msdn.microsoft.com/en-us/scriptjunkie/gg749824.aspx\">comprehensive tutorial over at ScriptJunkie</a>.</p>\n<p>As we were building an API client in the browser, mocking API requests was really important for us. We didn’t want to depend on the API being available, both to be able to work offline and to not depend on data that changes all the time. At the start of the project, jQuery 1.5 and its ajax extension points like custom transports weren’t available yet, so we went with <a href=\"https://github.com/appendto/jquery-mockjax\">mockjax</a>, a library adding mocking on top of jQuery’s ajax module.</p>\n<p>To run tests in continuous integration systems (at SoundCloud, on Jenkins), we looked at quite a lot of options. Jörn has <a href=\"http://jquery.bassistance.de/webtesting/presentation.html#slide4\">some slides that give an overview of that research</a>. Other teams at SoundCloud use <a href=\"http://seleniumhq.org/\">Selenium</a>, which wasn’t an option for us due to the lack of support for Chrome or Safari (which is still a work in progress). In the end we went with <a href=\"http://www.phantomjs.org\">PhantomJS</a>. PhantomJS is built on top of Qt-WebKit, provides a reasonable browser-like environment and enough API to run our unit tests and report back results.</p>\n<p>We considered using TestSwarm to distribute running of our unit tests to regular desktop browsers as well as mobile devices. The lack of a Jenkins-TestSwarm plugin (<a href=\"https://github.com/appendTo/Jenkins-TestSwarm\">now actually available</a>) as well as tools for managing VMs, browsers, simulators and emulators (or even managing mobile devices) was enough of a hurdle that we skipped this. Until we get this in place, we won’t know how many bugs we could have catched earlier with this additional setup.</p>\n<h2>The Good</h2>\n<p>QUnit does a pretty good job. The few small issues we encountered were swiftly fixed upstream. We ended up customizing the <a href=\"http://docs.jquery.com/QUnit/module\">module-method</a> quite heavily, mostly to integrate Mockjax. Overall, Mockjax also did a pretty good job, once we figured out a pattern that worked for us. Here’s a typical module-call for testing Backbone Views and Models that fetch their data from the API:</p>\n<pre><code>module(\"user\", {\n  \"/users/183/tracks\": \"/fixtures/forss-tracks.json\",\n  \"/users/183/playlists\": \"/fixtures/forss-playlists.json\",\n  \"/users/183/favorites\": \"/fixtures/forss-favorites.json\",\n  \"/users/183/groups\": \"/fixtures/forss-groups.json\",\n});</code></pre>\n<p>We still call the module-method with the module-name as the first argument. The second argument can contain setup- and teardown-properties, just like QUnit expects it. In addition, we pass url-mock pairs, which are passed on to $.mockjax. In addition to those, we define a catch-all to make sure that no test ever ends up calling the actual API. And we have a global timeout for each test to ensure a broken async test never prevents the suite from finishing.</p>\n<pre><code>var testTimeout;\nmodule = function(name, mocks) {\n  QUnit.module(name, {\n    setup: function() {\n      if (mocks) {\n        if (mocks.setup) {\n          mocks.setup.apply(this, arguments);\n        }\n        $.each(mocks, function(url, mock) {\n          if (/setup|teardown/.test(url)) {\n            return;\n          }\n          if ( $.type(mock) === &quot;string&quot; ){\n            $.mockjax({\n              url: &quot;/_api&quot; + url,\n              proxy: mock,\n              responseTime: 1\n            });\n          } else {\n            $.mockjax($.extend(mock,{url: &quot;/_api&quot; + url}));\n          }\n        });\n      }\n      $.mockjax({\n        url: &quot;/_api*&quot;,\n        responseTime: 1,\n        response: function(obj){\n          var message = &quot;Mockjax caught unmocked API call for url: &quot; + obj.url\n          if (obj.modelType) {\n            message += &quot;, from component &quot; + obj.modelType;\n          }\n          ok( false, message );\n        }\n      });\n\n      testTimeout = setTimeout(function() {\n        equal( true, false, &quot;test timeout (5s)&quot; );\n        // could involve multiple stop calls, reset\n        QUnit.config.semaphore = 1;\n        start();\n      }, 5000);\n    },\n    teardown: function() {\n      clearTimeout(testTimeout);\n      $.mockjaxClear();\n      if (mocks &amp;&amp; mocks.teardown) {\n        mocks.teardown.apply(this, arguments);\n      }\n    }\n  });\n};</code></pre>\n<p>The problem with this design was the lack of a <code>$.mockjaxClear(url)</code> method – you can’t remove an existing handler or replace it (<code>mockjaxClear(index)</code> is supported, but didn’t help us). We needed that to test error conditions, for example, when the API returned a 404 when asking if a particular track was a favorite of a user. In some cases, we could just mix it with other mocks. In other cases, we grouped these tests into a separate module-call (with the same name):</p>\n<pre><code>module(\"user\", {\n  \"/users/183/playlists\": {\n    responseStatus: 500,\n    responseText: \"servererror\",\n    responseTime: 1\n  }\n});</code></pre>\n<p>With that, we did the regular tests in one place, the error conditions in the other.</p>\n<h2>The Bad</h2>\n<p>An interesting QUnit feature, inspired by Kent Beck’s work on <a href=\"http://junitmax.com/\">JUnit MAX</a>, is its built-in reordering. It basically records the results of one test run in <code>sessionStorage</code>, then looks at those results during the next run. If a test failed before, its scheduled to run first. All that happens without changing the order of the result output. If it works, you can get the relevant test results much faster then for regular sequential runs, as its likely that tests that failed before will fail again, while passing tests are a lot less likely to start failing.</p>\n<p>The problem with that reordering for us was that with all the asynchronous tests in our suite, sometimes tests would have side effects on other tests. As long as they ran in a fixed order, those effects weren’t noticeable. Instead of addressing the actual side effects, we ended up disabling the reordering. Its on the pile of chores to still address.</p>\n<p>Overall, the unit tests did a good job, though its not quite clear how much value they actually provided. Most bug reports are about visual issues, sometimes small glitches, often enough device specific issues. As a mobile web developer, Android, or Andy as we started to call it, becomes kind of an IE6. It gets updated only with the OS, the OS isn’t updated, so we’re stuck with this browser that was okay a year ago, but is a real pain today. On Android 2.1, you even have the same issue as on IE6: HTML5 elements like ‘header’ or ‘article’ aren’t styled. At least on IE6, there’s a workaround…</p>\n<p>Anyway, the other category of bugs were reported much less frequently, and unit testing didn’t help there either. We learned that client-side error logging is extremely valuable. Tools like <a href=\"http://airbrakeapp.com/\">Airbrake</a> and <a href=\"http://bugsense.com/\">Bugsense</a> still have a long way to go, but writing a single-page web application without logging of client side errors means you never know about the thousands of errors your users get to see. Expect another post on that topic.</p>\n<h2>The Ugly</h2>\n<p>As long as mockjax did its job, we were happy with it. When it didn’t, we had to look at the source, and we weren’t happy anymore. The whole thing is quite a mess and in dire need of some good refactorings. Still, in terms of features, alternatives like jQuery 1.5 custom transports or <a href=\"http://sinonjs.org/\">sinon.js</a> just aren’t on par, so we stuck with mockjax.</p>\n<p>What we now mostly gave up on is PhantomJS. The Jenkins-job that ran our QUnit tests using PhantomJS is currently disabled, as it kept failing for months. We spent overall several days trying to find the source of the one failing test, giving up at the end. We still don’t know why it was failing, and there were several hurdles that made it difficult to debug:</p>\n<ul>\n<li>It failed only on our Jenkins server. Running the tests locally, using the same PhantomJS version, worked fine. The difference was the enviroment, with mostly OSX running on developer machines, but Debian Lenny on the Jenkins box. Sure, that’s a problem, but the point of the tool is to provide a browser-like enviroment, it shouldn’t matter what system its running on.</li>\n<li>We were stuck with PhantomJS 1.1, even after 1.2.x was out for several months. While we could adapt to the completely backwards incompatible API changes from 1.1 to 1.2, we didn’t find any way around PhantomJS just crashing on our testsuite, with no useful output. If you’re interested, you can find the debugging process somewhat <a href=\"http://groups.google.com/group/phantomjs/browse_thread/thread/f505feeb51eb08\">documented on this Google Groups thread</a>. Even debugging with <code>gdb</code> proved to be a waste of time. The unhelpfulness of PhantomJS when failing to load a page is stunning.</li>\n</ul>\n<p>So as nice as PhantomJS is, the combination of not being able to upgrade and not being able to fix the existing build forced us to abandon it. TestSwarm is a lot more interesting now with the existing Jenkins plugin. And with Chrome support upcoming in Selenium, that is an attractive short term solution as well.</p>\n<h2>Epilog</h2>\n<p>As you can see, this story isn’t over yet. It seems to share a common theme with other developer tools, be that editors, bug tracking or testing tools: most of them do their job, but we aren’t satisfied with any of them.</p>\n<p>What are your experiences? What tools would you like to see improved, replaced or invented?</p>"
+    },
+    "author" : "Jörn",
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://feeds.feedburner.com/soundcloudbackstage",
+      "title" : "SoundCloud Backstage",
+      "htmlUrl" : "http://backstage.soundcloud.com"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1315326017234",
+    "timestampUsec" : "1315326017234577",
+    "id" : "tag:google.com,2005:reader/item/5b82c54ab9e905e1",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast" ],
+    "title" : "Rapid Fire",
+    "published" : 1315306805,
+    "updated" : 1315306805,
+    "alternate" : [ {
+      "href" : "http://animalsbeingdicks.com/post/9873987716",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<p><img src=\"http://i1112.photobucket.com/albums/k497/animalsbeingdicks/animalsbeingdicks/abd-63-1.gif\"></p>\n<p>Bojangles had enough with Jared and all his ‘yo mama’ jokes.</p>"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://animalsbeingdicks.com/rss",
+      "title" : "Animals Being Dicks",
+      "htmlUrl" : "http://animalsbeingdicks.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1315236307351",
+    "timestampUsec" : "1315236307351566",
+    "id" : "tag:google.com,2005:reader/item/2654e823a22a595d",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast", "Coding" ],
+    "title" : "Reliable Cross-Browser Testing, Part 1: Internet Explorer",
+    "published" : 1314956931,
+    "updated" : 1314956931,
+    "alternate" : [ {
+      "href" : "http://www.smashingmagazine.com/2011/09/02/reliable-cross-browser-testing-part-1-internet-explorer/",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "<p>In a perfect world, cross-browser testing would be straightforward. We would download a legacy version of a browser, run it, and be able to instantly test our pages and scripts without a single care in the world. The reality of cross-browser testing, though, is very different. Issues such as runtime conflicts when running multiple versions of the same browser and inaccurate third-party testing tools mean we can spend hours just evaluating whether a testing set-up is anywhere near reliable.</p>\n<p>I’m a user-interface developer at AOL (yes, we’re not dead yet!), and in this multi-part post I’ll take you through the exact set-up we use to accurately test content that will be potentially viewed by up to millions of users with a very diverse set of browsers. This set-up is similar to the one used by some of my colleagues at Opera, Mozilla and Google, so, fingers crossed, we’re doing this optimally.</p>\n<p><strong>A quick note before we begin</strong>. Setting up accurate testing for Internet Explorer as outlined in this post requires a bit of effort. So, please check your website analytics first to ensure that a sufficient number of IE users visit your website in the first place to warrant this effort.</p>\n<h3>Internet Explorer 6 To 10</h3>\n<p>Let’s begin with our old friend, Internet Explorer (IE). As most of us know, running multiple versions of the original Internet Explorer executables on the same system is very difficult due to issues ranging from runtime version conflicts to operating-system incompatibility. In truth, I don’t think Microsoft ever considered a scenario in which developers needed a way to achieve this back when it was first conceiving IE 6, 7 and 8.</p>\n<p>This has left developers in a chasm of uncertainty, forced through trial and error to discover a way to accurately test what is (for better or worse) the world’s most widely used set of browsers.</p>\n<p>In this section, I’ll take you through some IE testing options that you may be using or have heard of before. I’ll explain why they might not be reliable; and then I’ll present the solutions we currently use at AOL for production websites.</p>\n<p>In case you’re interested, our team generally uses IE 7 as a baseline, although we do also test stable, beta and preview or dev-channel versions of Chrome, Firefox, Opera, Safari and, of course, IE 8 to 10.</p>\n<p>Our reason for using IE 7 as a baseline comes down to our global website analytics: IE 6, 7 and 8 are the most common browsers used to access our websites. However, we stopped supporting IE 6 as of a few months ago. The reality is that IE 6 has major compatibility issues with modern technologies, and our team has found that we are able to deliver projects up to 20% more quickly when we don’t have to worry about catering a basic experience to it.</p>\n<h3>Most Third-Party IE Testing Tools Are Unreliable</h3>\n<p>A Google search for third-party IE testing tools will result in at least ten different options, nine of which are likely to be unreliable. Let’s go through a sample of them, in case you’re using one of them to test against staging or production websites at your work.</p>\n<p>The following reviews may sound a little harsh, but the purpose is to stress the importance of using approaches that have been well engineered, tried and tested over time.</p>\n<h4>IETester</h4>\n<p>Unfortunately, <a href=\"http://www.my-debugbar.com/wiki/IETester/HomePage\">IETester</a> is probably the most popular third-party tool that I see designers and developers use to test multiple versions of IE. When I first tried it, I too was drawn by the promise of a single application that would solve all of my IE testing woes. However, all that glitters is not gold.</p>\n<p><img src=\"http://media.smashingmagazine.com/wp-content/uploads/2011/08/ietester.jpg\" alt=\"Ietester in Reliable Cross-Browser Testing, Part 1: Internet Explorer\" width=\"500\" height=\"289\"></p>\n<p>The tool has a number of inconsistencies when testing IE 6, 7 and 8, with none providing a 1:1 experience of the original browsers. Our and many other teams have confirmed not only that the rendered output of IETester varies significantly from any real version of IE, but that pop-up interactions cause failures, Flash and CSS filters don’t work in user mode, conditional CSS comments often fail, and switching between versions makes it very prone to crashing.</p>\n<p>In short, it’s unreliable, and this should be enough for any developer to consider alternatives.</p>\n<h4>Multiple IE</h4>\n<p>TredoSoft’s <a href=\"http://tredosoft.com/Multiple_IE\">Multiple IE</a> is another tool that often shows up when searching for an IE testing solution. Unfortunately, it too suffers from a number of issues, including inaccurate rendering. One common complaint is that people experience IE 5.5 rendering bugs even when they’re just testing IE 6; this certainly is not something we want to deal with at a time when many of us are trying to ditch IE 6 completely.</p>\n<p>Multiple IE isn’t updated regularly either, and if the long thread of user issues experienced with it since its release doesn’t put you off, then consider that the tool’s IE textboxes actually break in a number of circumstances.</p>\n<p><img src=\"http://media.smashingmagazine.com/wp-content/uploads/2011/08/multipleie.jpg\" alt=\"Multipleie in Reliable Cross-Browser Testing, Part 1: Internet Explorer\" width=\"500\" height=\"400\"></p>\n<p>To the best of my knowledge, both IETester and Multiple IE rely on an exploit known as DLL redirection in order to bypass issues with DLL naming conflicts, allowing the tools to attempt to run standalone copies of IE. I would recommend avoiding such tools, because implementing a completely sandboxed environment for IE that is as accurate as running the originals independently is very difficult.</p>\n<h4>Expression Web SuperPreview</h4>\n<p>Next up is Microsoft’s <a href=\"http://www.smashingmagazine.com/expression.microsoft.com/en-us/dd565874\">Expression Web SuperPreview</a>, which claims to simplify the process of testing and debugging layouts across multiple versions of Web browsers.</p>\n<p><img src=\"http://media.smashingmagazine.com/wp-content/uploads/2011/08/expression.jpg\" alt=\"Expression in Reliable Cross-Browser Testing, Part 1: Internet Explorer\" width=\"500\" height=\"325\"></p>\n<p>Unfortunately, you won’t be able to test complete user interaction, JavaScript, DOM manipulation, animation or much else with this tool. We live in an age when the Web can be very dynamic and, in some cases, highly interactive. A tool like this might work for baseline testing, but not for accurate cross-browser testing.</p>\n<h4>BrowserLabs, Browsershots, BrowserCam</h4>\n<p>I personally use Adobe’s <a href=\"https://browserlab.adobe.com/en-us/index.html\">BrowserLabs</a> — or sometimes <a href=\"http://browsershots.org\">Browsershots</a>, if a static layout test is absolutely necessary. But again, neither of these options allow you to test interactions with your pages. The same goes for <a href=\"http://browsercam.com\">BrowserCam</a>. These services simply weren’t designed for this purpose, but we still regularly see designers and developers using them as if they were.</p>\n<p>I’m not in any way saying to flat out avoid these services, but rather that they’re inadequate for complete cross-browser testing. Designers and developers need to know exactly what a user sees when they interact with their website. No visitor will be using a static page renderer, so why rely on one yourself?</p>\n<h4>Windows Virtual PC</h4>\n<p>One other solution you’ll probably come across is <a href=\"http://www.microsoft.com/windows/virtual-pc/\">Microsoft’s Virtual PC</a>, with <a href=\"http://www.microsoft.com/download/en/details.aspx?id=11575\">time-bombed images</a> for IE6 to 8.</p>\n<p>For a brief time this was considered to be the answer to cries from developers for a better solution. Unfortunately, it is by far the most inadequate (and demanding) solution to testing that I’ve seen proposed in the past few years. At least 12 GB of disk space is required to install all of the images, and the images regularly expire during the year.</p>\n<p>A cross-browser testing environment for legacy browsers should have reasonable system requirements and, for the most part, not require regular manual updating in order to continue using it. Because the Virtual PC option fails these criteria, I can’t recommend using it either.</p>\n<h3>Browser And Document Modes</h3>\n<p>We’ve looked at third-party tools, but what about Microsoft’s current solutions to these problems?</p>\n<p>Both IE 9 and IE 10 PP2 support switchable document and browser modes via the F12 Developer Tools for cross-version compatibility testing. To be specific, browser-version testing here is made possible using a kind of emulation.</p>\n<p><img src=\"http://media.smashingmagazine.com/wp-content/uploads/2011/08/browsermode.jpg\" alt=\"Browsermode in Reliable Cross-Browser Testing, Part 1: Internet Explorer\" width=\"530\" height=\"136\"></p>\n<p>“Document mode” determines what features a page has access to and what can be adjusted based on the page’s doc type, X-UA-compatible meta tag and headers. For example, the standards document mode allows the page to take advantage of IE’s implementation of ECMAScript 5 (ES5), while the IE 7 and 8 standards modes offer an alternative experience.</p>\n<p>“Browser mode,” on the other hand, emulates different IE browser version behaviors and can be changed directly from the IE Developer Tools. Emulation is achieved in a few different ways, but it includes altering both the document mode and the user-agent string. In case you’re wondering, the UA string is adjusted here to ensure that code that relies on UA sniffing functions as though the correct version of the browser were being used.</p>\n<p><img src=\"http://media.smashingmagazine.com/wp-content/uploads/2011/08/modes.jpg\" alt=\"Modes in Reliable Cross-Browser Testing, Part 1: Internet Explorer\" width=\"500\" height=\"321\"></p>\n<p>It is worth noting that IE 9 shipped with a newer JavaScript engine, called Chakra. While the browser itself supports a number of compatibility modes, because the JavaScript engine itself differs significantly from what shipped with IE 6, 7 and 8, there are <a href=\"http://blogs.msdn.com/b/ie/archive/2011/03/24/ie9-s-document-modes-and-javascript.aspx\">acknowledged differences</a> between the experience in IE 9 and testing in a standalone browser.</p>\n<p>That aside, there are, unfortunately, a number of <strong>quirks</strong> in the way that both document mode and browser mode function. Our team has run into scenarios where IE returns the wrong user-agent string to the server; and, as with the third-party tools, there have been several instances of inaccuracies with the expected rendering when tested against the original browsers.</p>\n<p>Finally (and rather strangely), these modes have a number of issues of their own that are not present in IE 6, 7 or 8, making it even more difficult to establish whether the issues experienced are specific to a browser version or just the mode being used.</p>\n<p>For these reasons, I would urge developers not to rely strictly on document or browser mode for their cross-version testing needs.</p>\n<h3>Accurate IE Testing Solutions</h3>\n<h4>Option 1: Virtual Machines + IECollection</h4>\n<p>We’ve reviewed a number of solutions that don’t provide an accurate means of testing multiple versions of IE. So, what <em>does</em> work? The answer lies in using dedicated virtual machines (VMs) and a tool called <a href=\"http://utilu.com/IECollection/\">IE Collection</a>.</p>\n<p><img src=\"http://media.smashingmagazine.com/wp-content/uploads/2011/08/iecollection.jpg\" alt=\"Iecollection in Reliable Cross-Browser Testing, Part 1: Internet Explorer\" width=\"500\" height=\"447\"></p>\n<p>Out of the box, Utilu’s IE Collection offers the following:</p>\n<ul>\n<li>A tested collection of <strong>standalone</strong> versions of IE, including versions 1 through 9;</li>\n<li>Confirmed support for <strong>accurate rendering</strong> when compared against the original IE executables;</li>\n<li>Confirmed support (to date) for the <strong>correct IE JavaScript engine</strong> implementations that shipped with the originals;</li>\n<li>Confirmed support for the correct UA strings being detectable (not that you should be UA-string testing in the first place — however, if needed, it’s there);</li>\n<li>Support for both the 32-bit and 64-bit versions of Windows XP, 2003, Vista and 7;</li>\n<li>Access to the <strong>IE Developer Toolbar</strong>, which comes with the standard IE Collection set-up; this is compatible with IE 5 and above, but you also have the option to install Firebug Lite if you prefer that.</li>\n</ul>\n<p>Although the majority of IE versions are supported and function reliably within the collection, there are known issues with versions of IE 7 when used under Windows Vista or Windows 7 (as noted on Utilu’s website). I’ll discuss how we handle this limitation shortly, but let’s first briefly go over virtual machines.</p>\n<p><img src=\"http://media.smashingmagazine.com/wp-content/uploads/2011/08/virtual1.jpg\" alt=\"Virtual1 in Reliable Cross-Browser Testing, Part 1: Internet Explorer\" width=\"500\" height=\"312\"></p>\n<p>A <strong>virtual machine</strong> (VM) is a sandboxed “guest” operating system that run within a normal “host” operating system. It effectively enables you to install and run a dedicated copy of almost any other operating system on your current one and to share a configurable set of memory and disk resources between the two. For example, a Windows 7 VM could easily be run on Mac OS X, as could an Ubuntu VM be run on Windows, and so on.</p>\n<p>You’ll need two things to get started using VMs: a virtualization tool to create VMs on your OS, and a CD or image of the operating system that you wish to run as a virtual machine. Your company should be able to furnish you with Windows licenses relatively easily (… famous last words). If you’re a college student, you could probably get licenses for Windows XP SP3, Vista and 7 for free through the <a href=\"http://msdn.microsoft.com/en-us/academic/bb250591\">MSDN Academic Alliance</a> program.</p>\n<p>You could set up a number of different configurations to test Windows and IE, but if you’re using IE Collection, I would generally recommend the following:</p>\n<ul>\n<li>Windows 7 for IE 6, 8, 9, 10;</li>\n<li>Windows XP (SP3) for IE 7.</li>\n</ul>\n<p>You shouldn’t need to support anything below IE 6 nowadays, but IE 4 to 5.5 also work fine on XP SP3.</p>\n<p>At AOL, we use a combination of <a href=\"http://virtualbox.org\">VirtualBox</a>, <a href=\"http://www.parallels.com/uk/products/desktop/\">Parallels</a> and <a href=\"http://www.vmware.com/\">VMware</a> for our virtualization needs. I prefer Sun’s VirtualBox because it has the following advantages:</p>\n<ul>\n<li>It’s free, providing a lower barrier to entry for developers who cannot afford commercial licenses for Parallels or VMware;</li>\n<li>In my experience, it tends to perform more optimally than Parallels or VMware under the same configuration settings;</li>\n<li>It has a marginally better UI than the alternatives.</li>\n</ul>\n<p>That said, VMware is considered better if you’re working with a standalone server. At the end of the day, all three options are equally valid, and both Parallels and VMware come with trial versions that you can easily evaluate. Choose whichever option best suits your needs.</p>\n<p><strong>Pro tip:</strong> Remember to configure your VM to use the minimim amount of memory needed to test, unless you are using a dedicated testing box. By default, not all virtualization tools are configured to do this. This will simply ensure that the rest of your OS runs more smoothly.</p>\n<p><strong>Here are the three steps to setting this up:</strong></p>\n<ol>\n<li>If you’re a Mac user, I recommend using a 32-bit Windows 7 Pro or Ultimate image (or installation CD), with a minimum of 17 GB of disk space allocated for the installation. 512 MB of virtualized RAM (which can be adjusted in the settings panel) should work fine for testing on a non-dedicated testing machine, but use more if feasible. You can create this as a new VM using VirtualBox, which I have configured to run at a resolution of between 800 × 600 and 1024 × 768 pixels. Windows users have two options. If you’re already running a version of Windows 7, skip to step 2, where we’ll begin installing IE Collection. If you’re running a different version of Windows and would like to run a virtualized copy of Windows 7 on top of it, then follow the steps above for Mac users. Mac and Windows users should boot up their VM or desktop Windows installation before proceeding to step 2.</li>\n<li>Next, download <a href=\"http://utilu.com/IECollection/\">IE Collection</a> from Utilu’s website, and then install Windows 7 on either your VM or your primary system, depending on your set-up. This will give you access to IE 6, 8 and 9. I usually install IE 10 for testing purposes separately, but bear in mind that it is only in the platform preview phase at the time of writing. Ideally, install only the bare essentials to test on any VM in order to avoid excessive start-up times.</li>\n<li>Mac and Windows users: to address the issue of IE 7 not working on Windows 7, you’ll have to create another virtual machine with Windows XP installed (ideally with SP3). Because no reliability issues have been reported for running either IE Collection’s IE 7 or the <a href=\"http://www.microsoft.com/download/en/details.aspx?id=2\">original IE 7</a> on this OS, your bases should be covered here. As stated in my previous instructions, obtain a Windows XP image or installation CD, and create a new VM using VirtualBox. Boot it up, install IE7 through the link above, and you should be good to go.</li>\n</ol>\n<p>That’s it really! Some developers prefer to run IE 6 and 7 on XP (step 3) rather than on Windows 7 or Vista, because XP accounts for the majority of users who have yet to upgrade to IE 8 or 9. This, too, is completely valid; the set-up is flexible enough to support a little personal preference.</p>\n<p>Next, for the sake of being thorough, let’s look at some alternatives to the set-up I’ve recommended above.</p>\n<h4>Option 2: Dedicated VMs for Each Version of IE</h4>\n<p>Pragmatic developers might wish to maintain a dedicated VM for each version of IE being tested. On these VMs, rather than using any third-party tools, they would install the original, official IEs instead.</p>\n<p><img src=\"http://media.smashingmagazine.com/wp-content/uploads/2011/08/multivm.jpg\" alt=\"Multivm in Reliable Cross-Browser Testing, Part 1: Internet Explorer\" width=\"500\" height=\"302\"></p>\n<p>The reasoning behind this is that it potentially <strong>minimizes the risk</strong> of individual browser configurations or overrides from interfering with one another, and it ensures that you get only the exact version of IE that you wish to test (and, in turn, the corresponding JavaScript engine in that version).</p>\n<p>If you’re setting up dedicated VMs for individual releases of IE, I recommend the following set-up:</p>\n<ul>\n<li>Windows XP (SP3) for IE 6,</li>\n<li>Windows Vista (SP2) for IE 7,</li>\n<li>Windows Vista (SP2) for IE 8,</li>\n<li>Windows 7 for IE 9 and 10.</li>\n</ul>\n<p>Knowing now about dedicated VMs, you might be wondering why we don’t use this set-up at AOL. I can only speak for my team, but we moved away from this approach because running three to four VMs on the same system and still using it efficiently for other tasks can become unmanageable.</p>\n<p>With a minimum configuration of 512 MB of RAM per VM, we would be looking at around 2 GB of RAM (if not more) just for testing purposes. This set-up might work if you currently have 8 GB or more of system memory. But if not, there’s still hope.</p>\n<p>We could always get a <strong>dedicated box</strong> just for testing purposes, and run all of our virtual machines directly on there instead. I recently acquired a second box at work for this very purpose. But at the end of the day, both options 1 and 2 are set-ups you can rely on.</p>\n<h4>Option 3: VNC or RDP + Dedicated Testing Boxes</h4>\n<p><img src=\"http://media.smashingmagazine.com/wp-content/uploads/2011/08/remotedesktop.jpg\" alt=\"Remotedesktop in Reliable Cross-Browser Testing, Part 1: Internet Explorer\" width=\"500\" height=\"358\"></p>\n<p>A few companies (such as ZURB) prefer to use a form of remote desktop access to allow designers and developers to log into a dedicated testing box or set of boxes for cross-browser testing, over a network. The benefit of this is reduced demand on memory for each client. And this can be implemented in a few ways; VNC and RDP are the first that come to mind.</p>\n<p>Virtual network computing (VNC) is a platform-independent desktop sharing system that allows you to remotely control another computer. It transmits both keyboard and mouse events from one system to another, relaying screen updates back in the other direction over a network. Similarly, RDP allows users to access applications over a network, but it is a proprietary protocol developed by Microsoft. If you happen to be running Mac OS X, VNC is already built in, but a number of VNC clients are also available in the wild, such as <a href=\"http://realvnc.com\">RealVNC</a>. On the RDP side of things, Mac users can use Apple’s own <a href=\"http://www.apple.com/remotedesktop/\">Remote Desktop </a> and <a href=\"http://www.microsoft.com/mac/remote-desktop-client\">Remote Desktop Connection</a> by Microsoft.</p>\n<p>You might be wondering what the differences are between VNC and RDP. RDP is semantic and is more aware of controls, fonts and other graphical primitives, while VNC is a little “dumber” in this regard. VNC, though, permits a session to be shared on the target machine, which might be useful for multi-user demos; whereas RDP does not, as far as I’m aware.</p>\n<p>With the decreased memory requirements, you might then wonder why we don’t opt to use remote desktops for testing at AOL. The primary reason is that, in some cases, testing over a network can result in packets (effectively, frames) being dropped, which can affect our ability to test highly interactive applications or websites. Also, websites that make use of rich-media experiences based on canvas, SVG or otherwise aren’t reliably tested over networks for this reason. But don’t let our experience put you off. I know of teams in other companies that haven’t run into these issues, and remote testing might be suitable for some networks more than others.</p>\n<p>Yet another alternative: If your team is unable to purchase or rent dedicated boxes for remote testing, there are third-party services that readily host all versions of Windows, along with historic versions of IE and other browsers, for a subscription fee. <a href=\"http://crossbrowsertesting.com\">CrossBrowserTesting.com</a> is one such option that might be worth exploring.</p>\n<h3>Conclusion</h3>\n<p>I hope this guide has come in handy. Please feel free to share your own stories and experiences of cross-version testing IE, because they may help other readers decide which option to try out first.</p>\n<p>In part 2 of this post, we’ll look at cross-browser testing modern browsers. See you then!</p>\n<p><em>(al)</em></p>\n<hr>\n<p><small>© Addy Osmani for <a href=\"http://www.smashingmagazine.com\">Smashing Magazine</a>, 2011.</small></p>"
+    },
+    "author" : "Addy Osmani",
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://www.smashingmagazine.com/feed/",
+      "title" : "Smashing Magazine Feed",
+      "htmlUrl" : "http://www.smashingmagazine.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1315009111991",
+    "timestampUsec" : "1315009111991403",
+    "id" : "tag:google.com,2005:reader/item/a6bab9fc5549c862",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast" ],
+    "title" : "Bird’s Eye View",
+    "published" : 1314970546,
+    "updated" : 1314970546,
+    "alternate" : [ {
+      "href" : "http://animalsbeingdicks.com/post/9704830106",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<p><img src=\"http://i1112.photobucket.com/albums/k497/animalsbeingdicks/animalsbeingdicks/abd-119-2.gif\"></p>\n<p>The recent rash of Seagull electronics thefts have community members very concerned.</p>"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://animalsbeingdicks.com/rss",
+      "title" : "Animals Being Dicks",
+      "htmlUrl" : "http://animalsbeingdicks.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1314915780441",
+    "timestampUsec" : "1314915780441705",
+    "id" : "tag:google.com,2005:reader/item/47507647d35cffa6",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast" ],
+    "title" : "Tagging the 1.6.3 release.",
+    "published" : 1314891627,
+    "updated" : 1314891627,
+    "alternate" : [ {
+      "href" : "https://github.com/jquery/jquery/commit/5e547826e19302e0e7c9b3f6e85cb59266925f1f",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "<pre>m version.txt\n</pre>\n      <pre style=\"white-space:pre-wrap;width:81ex\">Tagging the 1.6.3 release.</pre>"
+    },
+    "author" : "Dave Methvin",
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://github.com/jquery/jquery/commits/master.atom",
+      "title" : "Recent Commits to jquery:master",
+      "htmlUrl" : "https://github.com/jquery/jquery/commits/master"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1312754238489",
+    "timestampUsec" : "1312754238489611",
+    "id" : "tag:google.com,2005:reader/item/9aaa4997ca1a0f75",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast", "Books", "hair metal", "hard rock", "heavy metal", "power metal" ],
+    "title" : "Sound of the Beast. The Complete Headbanging History of Heavy Metal",
+    "published" : 1312716007,
+    "updated" : 1312716007,
+    "alternate" : [ {
+      "href" : "http://heizi.musicnerds.org/2011/08/sound-of-the-beast-the-complete-headbanging-history-of-heavy-metal/",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "<p><a title=\"buy the album at amazon.com\" href=\"http://www.amazon.com/gp/product/0380811278/ref=as_li_ss_tl?ie=UTF8&amp;tag=barbariana-20&amp;linkCode=as2&amp;camp=217145&amp;creative=399369&amp;creativeASIN=0380811278\"><img title=\"Sound of the Beast\" src=\"http://heizi.musicnerds.org/wp-content/uploads/2011/07/soundofthebeast.jpg\" alt=\"Sound of the Beast\" width=\"300\" height=\"453\"></a>A quick search on “Heavy Metal” in the books section of Amazon reveals a list of some dozen issues about the music, the people who make it and the cult that follows. A short history of the genre itself is usually a part of these books, but rarely do you find a wider analysis or a “Complete [...] History of Heavy Metal” that’s not an encyclopedia. Ian Christe’s attempt alone is worth an applause, just when you think about Metal and all those roots that it derives from and the branches it has grown. Where to begin? Which path to follow? Christe puts in a load of knowledge, behind-the-scenes information, quotations and weaves them into a coherent storyline that essentially follows a chronology of events outlined in the beginning of the book. So, is this book worth reading? And, moreover, is it the promised “Complete Headbanging History”? Let’s find out! <span></span></p>\n<h3>In the beginning there was…</h3>\n<p>Black Sabbath, a quite simple and obvious fact which Christe can’t stress enough. And why would he begin with the misty origins of metal in blues and rock’n&#39;roll? After all, this book is about pure heavy metal and that’s what Sabbath was and is about. In my personal opinion, Deep Purple and especially Ritchie Blackmore’s follow-up Rainbow were about as influential for modern day heavy metal and its subgenres, first and foremost power metal, as Tony Iommi et al. Of course, Christe mentions them, but rather shortly and he doesn’t refer to them later whenever he’s talking about influences.</p>\n<p>Christe is an American and therefore, he’s most proficient in the American metal scene, so, after some 20 pages about BS, hard rock and proto-metal, another 20 pages about the initial “new wave of British heavy metal”, he presents us with more than 190 pages about the (further) development of metal int he USA. Now, don’t get me wrong, the US were most important for giving metal a commercial platform on which it could spread throughout the world – yet there were many countries that caught the spark and it would have been most interesting to just quickly have a glance at how the development took place in different locations. Christe at least points out the importance of the German scene with speed metal acts such as Kreator, Destruction and so on.</p>\n<h3>Metallica bloody Metallica</h3>\n<p>Christe’s main focus stays on the USA though. The frame for his narrative is built up by the history of Metallica – and that is a good choice! I wasn’t into the early history of the band before and it was quite funny to realize they started as metal kids as well who were and stayed deeply rooted in the scene. With the rise of Metallica came the rise of metal. Of course, not only Metallica was responsible for that and Christe also describes the hair metal movement in detail and the other members of the “Big Four” (of thrash metal): Anthrax, Megadeth and Slayer.</p>\n<p>Coming back to the narrative, I think that’s what best about this book: Its coherent flow of stories, interviews, trivia and world news melted into one epic tale of heavy metal. Bringing together all these different developments and finding the relations between them is a great achievement of the author, no doubt. This is even more apparent, when you consider the whole lot of subgenres and clashes with other genres which Christe mentions and analyzes.</p>\n<p><strong>A complete history of heavy metal?</strong></p>\n<p>Crossovers make up a huge part of Christe’s story and it’s interesting to see the relevance of rap metal, hardcore punk, stoner metal and so on not only for the forth-going commercial success of metal, but also for the rejuvenating forces inside metal and the appeal it has for ever fresh new audiences. Christe has no prejudices when talking about other genres and he doesn’t say which subgenre is more to his liking and which isn’t, although, his preference for everything “core” is apparent.</p>\n<p>So, even after 320 pages, is this a complete history of heavy metal? Simple answer: No, it isn’t. Take for example prog metal. A big act such as Dream Theater with worldwide renown is only mentioned once in the book in a subordinate clause and another highlight of the genre, Fates Warning is consequently labelled as a power metal band. Well, that might count for the first two heavily maiden-inspired albums, but certainly not for the rest. Doom metal at least gets an honorary mention at the mere end of the book, but it looks like Christe completely forgot about it and then went like “holy shit” and somehow squeezed it in. That way, he doesn’t get in too deep – no room for drone and other fantastic creations this style brought up.</p>\n<p><strong>Not complete though still headbanging!</strong></p>\n<p>This flaw remains the only letdown of the book, though and it’s not that much of a big flaw, when you consider the mass of material Christe presents and the impossibility of including virtually every style of metal and analyzing them appropriately in a single person’s effort. And, hey, there’s still more in this book: Whenever Christe stumbles upon a subgenre he provides a “best of” list to go with it to help newcomers find a decent introduction. Apart from the narrative, the book can also be used as an encyclopedia: A brilliant index at the end lists band names and the pages on which they are mentioned.</p>\n<p>At last, a praise for the supreme visual style of the book. From the front cover (an adaptation from a renaissance painting, showing the apocalypse) to the pictures on the inside and the quality photo part in the middle: after all, heavy metal is not just about the music, it’s a very visual movement, rich in gestures and symbols and the book measures up to it. So, if you’re into metal, no matter if you’re a beginner or insider, get this book, have fun with it, bring it to good use and bang your heads!</p>"
+    },
+    "author" : "Marcus Kästner",
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://heizi.musicnerds.org/feed/",
+      "title" : "All Sounds Remarkable",
+      "htmlUrl" : "http://heizi.musicnerds.org"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1312478236888",
+    "timestampUsec" : "1312478236888207",
+    "id" : "tag:google.com,2005:reader/item/0a53d0ed2e959404",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast" ],
+    "title" : "Neuer Cartoon online - SUPER! vom 04.08.2011",
+    "published" : 1312408800,
+    "updated" : 1312408800,
+    "alternate" : [ {
+      "href" : "http://www.nichtlustig.de/toondb/110804.html",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<table width=\"100%\" bgcolor=\"#cce3ff\">\n    <tr>\n        <td align=\"center\">\n\t\t  <table border=\"0\" bgcolor=\"#cce3ff\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" style=\"height:100%;font-family:Verdana,Arial;font-size:12px\" align=\"center\">\n\t\t  <tr><td align=\"center\" valign=\"top\">\n\t\t  <img src=\"http://www.nichtlustig.de/img/n/cartoonrss.png\"><br><br><img src=\"http://www.nichtlustig.de/comics/full/110804.jpg\">\n\t\t  <br><br>\n\t\t  <br><br>© 2011 Joscha Sauer &amp; NICHTLUSTIG J. Sauer &amp; M. Vogel GbR \n\t\t  </td>\n\t\t  </tr>\n\t\t  </table>\n        </td>\n\t</tr>\n</table>"
+    },
+    "author" : "info@nichtlustig.de (NICHTLUSTIG)",
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://www.nichtlustig.de/rss/nichtrss.rss",
+      "title" : "NICHTLUSTIG RSS feed",
+      "htmlUrl" : "http://www.nichtlustig.de/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1312378490683",
+    "timestampUsec" : "1312378490683269",
+    "id" : "tag:google.com,2005:reader/item/d6807b309f8107f4",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast" ],
+    "title" : "High Five!",
+    "published" : 1312377346,
+    "updated" : 1312377346,
+    "alternate" : [ {
+      "href" : "http://animalsbeingdicks.com/post/8426793570",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<p><img src=\"http://i1112.photobucket.com/albums/k497/animalsbeingdicks/animalsbeingdicks/abd-106.gif\"></p>\n<p>The other pledges felt sorry for Lucas, but the hazing was worth it to get into the best frat. </p>"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://animalsbeingdicks.com/rss",
+      "title" : "Animals Being Dicks",
+      "htmlUrl" : "http://animalsbeingdicks.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1312302238360",
+    "timestampUsec" : "1312302238360911",
+    "id" : "tag:google.com,2005:reader/item/789f6936c993ce1f",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast", "Api", "Javascript", "node.js", "backbone.js", "javascript", "jquery", "mobile" ],
+    "title" : "Building the SoundCloud mobile site using backbone.js",
+    "published" : 1312286495,
+    "updated" : 1312286495,
+    "alternate" : [ {
+      "href" : "https://backstage.soundcloud.com/2011/08/building-the-soundcloud-mobile-site-using-backbone-js/",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "<div>\n<p><img src=\"https://img.skitch.com/20110722-qf2wmir75es6ag338k2xdkpksg.png\" alt=\"\" width=\"396\" height=\"744\"></p>\n<p>Until early this year, there was a gap. A gap between the desktop-targeted main SoundCloud site, what we call the ‘mothership’, and the native iOS (iPhone, iPod touch) and Android applications. A common and frustrating use-case was mobile Twitter: Someone would share a new <a href=\"https://twitter.com/#!/ericw/status/93440751215718400\">favorite</a> or <a href=\"https://twitter.com/#!/ianwhooper/status/89517272762286080\">upload</a> on Twitter, you tap on it, and it tried to load the regular site on your tiny smartphone screen. Pushing the whole desktop site over a mobile connection would be a waste of precious bandwidth, if you only want to check out a track. Alternatively we could try to redirect to our native apps, but there’s no guarantee that the user has it installed and the mobile vendors don’t offer any APIs for verifying that in advance.</p>\n<p>With that in mind, back in December 2010, we set off to build <a href=\"http://m.soundcloud.com\">SoundCloud Mobile</a>, targeting the mobile browsers of iOS and Android. The analytics of the existing site told us that these two platforms make up the overwhelming majority of our users, so we started there. As a mid-term goal, we decided to expand our support to devices, as long as they have a browser capable of streaming audio.</p>\n<p>For the architecture of the site we decided to make it a <a href=\"http://developers.soundcloud.com/docs\">SoundCloud API</a> client, eating our own dogfood just like the native iOS and Android apps already do. With that in mind, we considered the option of building a single-page web application (vs classic serverside rendered pages). To figure out how viable that option is, we spent a week building a prototype based on <a href=\"http://jquerymobile.com/\">jQuery Mobile</a>. The prototype included a start page with hot tracks, a basic search, people and track pages and basic audio streaming. The lists used the theme provided by jQuery Mobile, everything else was barely styled HTML. This prototype helped a lot in making several important decisions:</p>\n<ul>\n<li>Building a single-page app was feasible, with the client side application as the direct API client. Later we had to back away a bit from that, introducing a proxy to decorate the API (and work around WebKit <a href=\"http://code.google.com/p/chromium/issues/detail?id=70257\">bugs</a>), but overall most of the action is still happening on the client.</li>\n<li>jQuery Mobile works great for a fixed number of preloaded and infinite number of server-generated pages, but not for our usecase of generating all pages on the fly based on API results. We needed much more flexible routing with HTML5 <a href=\"https://developer.mozilla.org/en/DOM/Manipulating_the_browser_history\">history.pushState</a> support, so that we could support the theme URL sets as the main site.</li>\n<li>On a similar note, jQuery Mobile’s theming system allowed us to build a pretty prototype in no time, but wasn’t a good fit for the completely customized UI that we wanted.</li>\n<li>Audio streaming on mobile is still very immature. Even with support for only iOS and Android, plenty of workarounds are required for a somewhat consistent experience.</li>\n</ul>\n<p>After throwing away the first prototype, we moved on to create our own basic framework. It described the domain classes like ‘track’ and ‘user’ as global singleton objects. Our ‘router’ object was responsible of passing on the model data onto the responsible controller method. Soon we could see that the approach wouldn’t scale that well, especially when simultaneous instances of a class were required on the same page.</p>\n<p>After dismissing a <a href=\"http://www.sencha.com/products/touch/\">few</a> <a href=\"http://javascriptmvc.com/\">bigger</a> client-side <a href=\"http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller\">MVC</a> frameworks, we’ve stumbled upon <a href=\"http://documentcloud.github.com/backbone/\">Backbone.js</a>, which was compact, easily extendable and depended only on <a href=\"http://documentcloud.github.com/underscore/\">Underscore.js</a>. Backbone sets up only the application structure plus it offers a multitude of convenient methods that can be used while building your app. It doesn’t dictate how the application UX works nor describes how the templates have to be structured. While that still left a lot of open questions for us to answer, it also didn’t impose too much unwanted structure.</p>\n<p><a href=\"http://documentcloud.github.com/backbone/\">Backbone.js</a> let’s you choose your own templating engine, and we went with the <a href=\"http://api.jquery.com/jquery.tmpl/\">jquery-tmpl</a> plugin. We restricted our template usage to output and iteration within the template, both to give us the option of switching to another template engine (e.g. <a href=\"http://www.handlebarsjs.com/\">handlebars.js</a>) and to keep our sanity. To implement the remaining presentation logic, we used the route suggested by Backbone.js, preparing the data for output in the Model’s <a href=\"http://documentcloud.github.com/backbone/#Model-toJSON\">toJSON</a> method. This also has the advantage of keeping the model itself clean, making it easy to update the model and send it back to the server. In addition to that we added a decoration step, modifying the template output before inserting it into the DOM. This includes adding additional classes or removing empty nodes.</p>\n<p>When we started using Backbone.js, it supported only hash-based history (what Twitter does today when it redirects twitter.com/ericw to twitter.com/#!/ericw). We wanted support for <a href=\"http://dev.w3.org/html5/spec-author-view/history.html\">history.pushState</a> to map URLs from soundcloud.com to m.soundcloud.com by only prepending the ‘m.’. We extended Backbone.history for that, while also triggering a custom event. The latter can be used by the Google Analytics tracker or any other component that has to get an update on the current page state.</p>\n<p>We also extended regular Backbone.sync method, used by all Models and Collections to exchange data with the server, to add a client side cache, backed by the HTML5 <a href=\"http://dev.w3.org/html5/webstorage/\">sessionStorage</a>. That way we didn’t have to keep any pages in memory, but can instead rerender them from scratch in milliseconds, as the underlying data is still available in the cache.</p>\n<p><img src=\"https://img.skitch.com/20110722-1r2ynrxuyeqbm47rbmgh6bwce5.png\" alt=\"\" width=\"396\" height=\"744\"></p>\n<p>With those components in place, a click (or rather, tap) on any internal link caused the following actions:</p>\n<ul>\n<li>Handling the click/tap event, preventing the default browser action, and using history.pushState instead to update the current address. At some point telling the Backbone.router that the page changed.</li>\n<li>Backbone.router maps the URL to a controller method, which creates the model for that URL, e.g. initializing the User model with the username parsed from the URL. It then creates the view and passes the model to that view.</li>\n<li>The view tells the model to fetch its data. Once done, with data loaded from the server or from the client side cache, it passes the model to a template, decorates the result and inserts it into the DOM.</li>\n<li>The view also initializes event handlers (via event delegation) to handle all interactions within that view, e.g. a click event on the ‘Play’ button to start streaming audio.</li>\n</ul>\n<p>This turned out to be a very solid application architecture which we continued to fine-tune after the first public launch of the mobile site in March, when we redirected iOS and Android traffic from the <a href=\"http://soundcloud.com/\">main site</a>. Since then we continued to add features and improve the site, watching the traffic almost doubling every month.</p>\n<p>Along with this new client side architecture we also experimented with alternatives for development and production. The <a href=\"http://nodejs.org\">node.js</a>-based development and production server, including the API-proxy is <a title=\"SoundCloud mobile – Proxies\" href=\"http://backstage.soundcloud.com/2011/08/soundcloud-mobile-proxies/\">covered in detail</a> by our node ninja <a href=\"https://twitter.com/goldjunge\">Alexander Simmerl</a>. In the upcoming post we’ll also talk about our approach to testing with <a href=\"http://docs.jquery.com/Qunit\">QUnit</a> and <a href=\"http://www.phantomjs.org\">PhantomJS</a>.</p>\n</div>"
+    },
+    "author" : "matas",
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://feeds.feedburner.com/soundcloudbackstage",
+      "title" : "SoundCloud Backstage",
+      "htmlUrl" : "http://backstage.soundcloud.com"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1311876482975",
+    "timestampUsec" : "1311876482975645",
+    "id" : "tag:google.com,2005:reader/item/12e5c260d9cdf058",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast" ],
+    "title" : "Up and over",
+    "published" : 1311853273,
+    "updated" : 1311853273,
+    "alternate" : [ {
+      "href" : "http://animalsbeingdicks.com/post/8168505980",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<p><img src=\"http://i1112.photobucket.com/albums/k497/animalsbeingdicks/animalsbeingdicks/stupidassdog.gif\"></p>\n<p>Being a superhero had it’s perks, like being able to leap tall hedges with a single bound. </p>"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://animalsbeingdicks.com/rss",
+      "title" : "Animals Being Dicks",
+      "htmlUrl" : "http://animalsbeingdicks.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1311537117212",
+    "timestampUsec" : "1311537117212503",
+    "id" : "tag:google.com,2005:reader/item/90b3a21256698a56",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast" ],
+    "title" : "Comic for July 24, 2011",
+    "published" : 1311483600,
+    "updated" : 1311483600,
+    "canonical" : [ {
+      "href" : "http://dilbert.com/strips/comic/2011-07-24/"
+    } ],
+    "alternate" : [ {
+      "href" : "http://feedproxy.google.com/~r/DilbertDailyStrip/~3/v9n9kVhkLKw/",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<img src=\"http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/100000/20000/5000/600/125621/125621.strip.print.gif\" border=\"0\"><p><iframe src=\"http://feedads.g.doubleclick.net/~ah/f/bda66t01h6cudmiae15knqhj18/468/60#http%3A%2F%2Fdilbert.com%2Fstrips%2Fcomic%2F2011-07-24%2F\" width=\"100%\" height=\"60\" frameborder=\"0\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\"></iframe></p><img src=\"http://feeds.feedburner.com/~r/DilbertDailyStrip/~4/v9n9kVhkLKw\" height=\"1\" width=\"1\">"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://feeds.feedburner.com/DilbertDailyStrip",
+      "title" : "Dilbert Daily Strip",
+      "htmlUrl" : "http://dilbert.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1311347387715",
+    "timestampUsec" : "1311347387715350",
+    "id" : "tag:google.com,2005:reader/item/100635cc008cdb5c",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast" ],
+    "title" : "eBay Patents 10-Click Checkout",
+    "published" : 1311330960,
+    "updated" : 1311332734,
+    "replies" : [ {
+      "href" : "http://steve-yegge.blogspot.com/feeds/6415077178742163594/comments/default",
+      "title" : "Post Comments",
+      "type" : "application/atom+xml"
+    }, {
+      "href" : "http://www.blogger.com/comment.g?blogID=13674163&postID=6415077178742163594",
+      "title" : "22 Comments",
+      "type" : "text/html"
+    } ],
+    "alternate" : [ {
+      "href" : "http://steve-yegge.blogspot.com/2011/07/ebay-patents-10-click-checkout.html",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "San Jose, CA (<span style=\"font-weight:bold\">Reuters</span>) — Online auctions cartel eBay (NASDAQ: EBAY) and its collections and incarceration arm PayPal announced that on July 21, 2011, the two companies had jointly been awarded United States Patent No. 105960411 for their innovative 10-click “Buy it Now” purchasing pipeline.<br><br>The newly-patented buying system guides users through an intuitive, step-by-step process of clicking “Buy It Now”, entering your password, logging in because they signed your sorry ass out again, getting upsold shit you don’t want, continuing to your original destination, accepting the default quantity of 1 (otherwise known as “It”), committing to buy, clicking \"Pay Now\", entering a <span style=\"font-style:italic\">different</span> password than your first one, clicking \"Log In\" <span style=\"font-style:italic\">again</span> god dammit, declining to borrow money from eBay’s usury department, reviewing the goddamn purchase details since by now you’ve completely forgotten what the hell you were buying, and finally confirming the god damned payment already.<br><br>The 10-click checkout system, known colloquially as 10CLICKFU -- which many loyal users believe stands for “10 Clicks For You” -- was recently awarded top honors by the National Alliance of Reconstructive Hand Surgeons.  10CLICKFU incorporates a variable number of clicks ranging from eight to upwards of fifteen, but eBay’s patent stipulates that any purchasing system that lies to you at least nine times about the “Now” part of “Buy It Now” is covered by their invention.<br><br>The patent award came as a surprise to many analysts, since several of eBay’s related patent attempts had been rejected on the basis of prior art.  In one well-publicized filing, eBay had tried to patent a purely decorative, non-operational “Keep me signed in” checkbox, but Sony’s PlayStation Network already had one just like it.  And another eBay patent claim for excruciating page load times was rejected because the iPad App Store is still loading.<br><br>But eBay’s boldest and potentially furthest-reaching patent attempt was for “100% Inaccurate Button Text”.  The invention claim was based on several of their UI elements, but rested primarily on the “Buy It Now” button, which eBay claims contains enough inaccuracies to render it \"complete bullshit.\"  Their patent was rejected by the US Patent Office review committee on the grounds that the Firefox browser’s “Do this automatically from now on” checkbox has been complete bullshit for over fifteen years.  eBay says they will appeal the ruling because the checkbox is not technically a button.<br><br>eBay’s spokesperson Paula Smugworth announced that eBay will continue to innovate on ways to remind their users that monopolies can do whatever the hell they want.  “Not that eBay is a monopoly,” she added.  “But if we <span style=\"font-style:italic\">were</span> a monopoly, then we could do whatever the hell we wanted.  I’m just sayin’.”<br><br>eBay’s stock rose on the news, driven largely by anonymous shill bidders."
+    },
+    "author" : "Steve Yegge",
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://steve-yegge.blogspot.com/feeds/posts/default",
+      "title" : "Stevey&#39;s Blog Rants",
+      "htmlUrl" : "http://steve-yegge.blogspot.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1311330647769",
+    "timestampUsec" : "1311330647769994",
+    "id" : "tag:google.com,2005:reader/item/178fe48514871038",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast", "image" ],
+    "title" : "(Image)",
+    "published" : 1311292902,
+    "updated" : 1311292902,
+    "alternate" : [ {
+      "href" : "http://soup.johl.io/post/148164593/Image",
+      "type" : "text/html"
+    } ],
+    "enclosure" : [ {
+      "href" : "http://9.asset.soup.io/asset/2195/1817_5d13_400.jpeg",
+      "type" : "image/jpeg",
+      "length" : "0"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<p><a href=\"http://9gag.com/gag/172472/\"><img alt=\"1817_5d13_400\" height=\"461\" src=\"http://9.asset.soup.io/asset/2195/1817_5d13_400.jpeg\" width=\"400\"></a></p> <p></p><p>[Reposted from <span><a href=\"http://highhopes.soup.io/post/147975856/Image\"><span>highhopes</span></a></span> via <span><a href=\"http://alena.soup.io/post/148111987/Image\"><span>alena</span></a></span>]</p>"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://soup.johl.io/rss",
+      "title" : "Tumble upon johl",
+      "htmlUrl" : "http://soup.johl.io/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1310916508615",
+    "timestampUsec" : "1310916508615338",
+    "id" : "tag:google.com,2005:reader/item/43b2409cf4f3f30a",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast", "video" ],
+    "title" : "DJ Cats",
+    "published" : 1310897859,
+    "updated" : 1310897859,
+    "alternate" : [ {
+      "href" : "http://soup.johl.io/post/146900102/DJ-Cats",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<iframe src=\"http://reader.googleusercontent.com/reader/embediframe?src=http://www.youtube.com/v/bTLgeqCaYMY&amp;width=425&amp;height=350\" width=\"425\" height=\"350\"></iframe>DJ Cats<p>[Reposted from <span><a href=\"http://poc.soup.io/post/146805500/DJ-Cats\"><span>poc</span></a></span>]</p>"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://soup.johl.io/rss",
+      "title" : "Tumble upon johl",
+      "htmlUrl" : "http://soup.johl.io/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1310655512251",
+    "timestampUsec" : "1310655512251114",
+    "id" : "tag:google.com,2005:reader/item/b46204d5403e2a77",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast" ],
+    "title" : "Photo",
+    "published" : 1310606152,
+    "updated" : 1310606152,
+    "alternate" : [ {
+      "href" : "http://bullshit.tumblr.com/post/7595081142",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<img src=\"http://24.media.tumblr.com/tumblr_loao02F4PL1qz7lxdo1_500.jpg\"><br><br>"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://bullshit.tumblr.com/rss",
+      "title" : "The Triumph of Bullshit",
+      "htmlUrl" : "http://bullshit.tumblr.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1309981566383",
+    "timestampUsec" : "1309981566383218",
+    "id" : "tag:google.com,2005:reader/item/8a40cdf8cc429bc5",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast" ],
+    "title" : "Comic for July 6, 2011",
+    "published" : 1309928400,
+    "updated" : 1309928400,
+    "alternate" : [ {
+      "href" : "http://feedproxy.google.com/~r/DilbertDailyStrip/~3/oeXLf4A_pZk/",
+      "type" : "text/html"
+    } ],
+    "canonical" : [ {
+      "href" : "http://dilbert.com/strips/comic/2011-07-06/"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<img src=\"http://dilbert.com/dyn/str_strip/000000000/00000000/0000000/100000/20000/6000/800/126850/126850.strip.print.gif\" border=\"0\"><p><iframe src=\"http://feedads.g.doubleclick.net/~ah/f/bda66t01h6cudmiae15knqhj18/468/60#http%3A%2F%2Fdilbert.com%2Fstrips%2Fcomic%2F2011-07-06%2F\" width=\"100%\" height=\"60\" frameborder=\"0\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\"></iframe></p><img src=\"http://feeds.feedburner.com/~r/DilbertDailyStrip/~4/oeXLf4A_pZk\" height=\"1\" width=\"1\">"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://feeds.feedburner.com/DilbertDailyStrip",
+      "title" : "Dilbert Daily Strip",
+      "htmlUrl" : "http://dilbert.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1309796496839",
+    "timestampUsec" : "1309796496839803",
+    "id" : "tag:google.com,2005:reader/item/969ba1cd1957fcac",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast" ],
+    "title" : "Happy Independence Day!",
+    "published" : 1309791960,
+    "updated" : 1309791960,
+    "alternate" : [ {
+      "href" : "http://animalsbeingdicks.com/post/7228629109",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<p><img src=\"http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-74.gif\"></p>\n<p>Barry was never a fan of fireworks, so he was determined to show his people just how dangerous they could be. </p>"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://animalsbeingdicks.com/rss",
+      "title" : "Animals Being Dicks",
+      "htmlUrl" : "http://animalsbeingdicks.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1309796167141",
+    "timestampUsec" : "1309796167141260",
+    "id" : "tag:google.com,2005:reader/item/b537a9508a069d40",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast", "video" ],
+    "title" : "<div style=\"direction:rtl;text-align:right\">‪Bruce Wayne / Batman Has a Conversation With Himself‬‏</div>",
+    "published" : 1309749643,
+    "updated" : 1309749643,
+    "alternate" : [ {
+      "href" : "http://soup.johl.io/post/143271231/Bruce-Wayne-Batman-Has-a-Conversation-With",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<iframe src=\"http://reader.googleusercontent.com/reader/embediframe?src=http://www.youtube.com/v/tgCkmUS1IYI&amp;width=425&amp;height=350\" width=\"425\" height=\"350\"></iframe>‪Bruce Wayne / Batman Has a Conversation With Himself‬‏<p>[Reposted from <span><a href=\"http://BigPoop.soup.io/post/142840041/Bruce-Wayne-Batman-Has-a-Conversation-With\"><span>BigPoop</span></a></span> via <span><a href=\"http://ZaphodB.soup.io/post/143243998/Bruce-Wayne-Batman-Has-a-Conversation-With\"><span>ZaphodB</span></a></span>]</p>"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://soup.johl.io/rss",
+      "title" : "Tumble upon johl",
+      "htmlUrl" : "http://soup.johl.io/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1309796040950",
+    "timestampUsec" : "1309796040950682",
+    "id" : "tag:google.com,2005:reader/item/5e878be052654ad8",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast", "image" ],
+    "title" : "Vincent Van Morph, bitches!",
+    "published" : 1309743507,
+    "updated" : 1309743507,
+    "alternate" : [ {
+      "href" : "http://soup.johl.io/post/143252785/Vincent-Van-Morph-bitches",
+      "type" : "text/html"
+    } ],
+    "enclosure" : [ {
+      "href" : "http://a.asset.soup.io/asset/1901/4442_618d.gif",
+      "type" : "image/jpeg",
+      "length" : "0"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<p><a href=\"http://soup.johl.io/\"><img alt=\"4442_618d\" height=\"267\" src=\"http://a.asset.soup.io/asset/1901/4442_618d.gif\" width=\"400\"></a></p> <p>Vincent Van Morph, bitches!</p><p>[Reposted from <span><a href=\"http://zlobendog.soup.io/post/131603956/Vincent-Van-Morph-bitches\"><span>zlobendog</span></a></span> via <span><a href=\"http://lagerkoller.soup.io/post/142823587/Vincent-Van-Morph-bitches\"><span>lagerkoller</span></a></span>]</p>"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://soup.johl.io/rss",
+      "title" : "Tumble upon johl",
+      "htmlUrl" : "http://soup.johl.io/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1309795875622",
+    "timestampUsec" : "1309795875622842",
+    "id" : "tag:google.com,2005:reader/item/ed96f0174af5749b",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/00033687911165427969/state/com.google/broadcast", "image" ],
+    "title" : "via @leyrer",
+    "published" : 1309740141,
+    "updated" : 1309740141,
+    "alternate" : [ {
+      "href" : "http://soup.johl.io/post/143242534/via-leyrer",
+      "type" : "text/html"
+    } ],
+    "enclosure" : [ {
+      "href" : "http://2.asset.soup.io/asset/2111/5602_798a.gif",
+      "type" : "image/jpeg",
+      "length" : "0"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/00033687911165427969/state/com.google/broadcast",
+      "title" : "Jörn Zaefferer's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<p><a href=\"http://29.media.tumblr.com/tumblr_lno3vgLL2D1qz4wexo1_500.gif\"><img alt=\"5602_798a\" height=\"700\" src=\"http://2.asset.soup.io/asset/2111/5602_798a.gif\" width=\"400\"></a></p> <p>via <a href=\"http://29.media.tumblr.com/tumblr_lno3vgLL2D1qz4wexo1_500.gif\">@</a>leyrer</p><p>[Reposted from <span><a href=\"http://soup.citizen428.net/post/143212237/via-leyrer\"><span>citizen428</span></a></span> via <span><a href=\"http://ZaphodB.soup.io/post/143238127/via-leyrer\"><span>ZaphodB</span></a></span>]</p>"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://soup.johl.io/rss",
+      "title" : "Tumble upon johl",
+      "htmlUrl" : "http://soup.johl.io/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1262573819513",
+    "timestampUsec" : "1262573819513496",
+    "id" : "tag:google.com,2005:reader/item/d2d21ebb0ee02569",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/07171487490709895049/state/com.google/broadcast", "Innovation/Entrepreneurship" ],
+    "title" : "디지털 오파상",
+    "published" : 1258693216,
+    "updated" : 1258693216,
+    "alternate" : [ {
+      "href" : "http://iankwon.com/494",
+      "type" : "text/html"
+    } ],
+    "related" : [ {
+      "href" : "http://iankwon.com/entry/%EB%94%94%EC%A7%80%ED%84%B8-%EC%98%A4%ED%8C%8C%EC%83%81"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/07171487490709895049/state/com.google/broadcast",
+      "title" : "ruseel's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "옛날에는 한국과 미국을 왔다갔다하며, 여기있는 물건을 저기에서 수입하여 판매하며 마진을 누리는 '무역업' 혹은 '오파상'으로 돈을 번 사람들이 꽤 많다. 최근엔 웹 안에서 새로운 형태의 오파상이 등장하고 있는 것 같아 정리해본다.<br>\n<br>\n<span style=\"font-weight:bold\"><span style=\"padding:3px 1px 0px;color:rgb(32,32,32);background-color:rgb(250,255,169)\">애드마루 (<a href=\"http://www.admaru.com\">www.admaru.com</a>)</span></span><br>\n<br>\n미국에 사는 한인들이 네이버/다음/조선/동아 등 우리나라 주요 사이트들에 접속하는 트래픽이 만만치 않다. 그도 그럴것이, 미국거주 한인의 인구가 250만명이라고 하니 우리나라 전체 인구의 5% 정도는 되는 수치다. (LA인근거주 한인 숫자가 제주도 인구보다 많다고 함) 네이버의 미국 트래픽이 하루 8백만 PV 정도 된다고 하고 신문사닷컴들도 일 수백만의 트래픽이 나온다고 한다. <br>\n<br>\n<span style=\"font-weight:bold\">애드마루는 미국에서 한국의 사이트에 들어갈때, 미국기업의 배너광고를 내보내는 대행사다</span>. 예를 들어, 미국에 사는 유학생이 동아닷컴에 들어가면, 한국광고가 아니라 미국회사 광고가 나온다. 미국내 한인들의 전반적 buying power가 높아서, 미국 기업들이 한인들만을 타겟팅하여 광고를 집행하는 것을 좋아한다고 한다. 한인사회를 기반으로 비즈니스를 하는 식당/변호사/회계사/의사 등도 광고주다. 매체 입장에선 유휴(?)인벤토리의 monetization이니 why not? 이다.<br>\n<div style=\"text-align:center;clear:both;margin-bottom:10px\"><img src=\"http://iankwon.com/attach/1/1187294772.png\" width=\"500\" height=\"376\" alt=\"\"></div><br>\n<br>\n<span style=\"font-weight:bold\"><span style=\"padding:3px 1px 0px;color:rgb(32,32,32);background-color:rgb(250,255,169)\">드라마피버 (<a href=\"http://www.dramafever.com\">www.dramafever.com</a>)</span></span><br>\n<br>\n<span style=\"font-weight:bold\">한마디로 한국드라마를 위한 Hulu 서비스이다</span>. MBC,SBS,KBS 등과 정식으로 계약을 맺고, 웹기반에서 고화질로 드라마를 스트리밍해준다. 저작권을 위해 미국내 IP로 접근할때만 볼 수 있다. 애드마루와 마찬가지로 미국내 광고주들로부터 광고수익을 얻고 유료모델도 있다. 관련기사를 보니, 한류열풍 때문에 한인뿐 아니라 미국내 아시안계들도 즐겨 본다고 한다. <br>\n<br>\n<div style=\"text-align:center;clear:both;margin-bottom:10px\"><img src=\"http://iankwon.com/attach/1/1223881535.png\" width=\"500\" height=\"373\" alt=\"\"></div><br>\n<span style=\"font-weight:bold\">DFSB (<a href=\"http://www.dfsb.kr\">www.dfsb.kr</a>)<br>\n<br>\n</span>우리나라 가수들이 온라인 상에서 해외진출을 할 수 있도록 도와주는 에이전시다. 각종 음악 서비스에 영어 프로필을 만들고, 아이폰 앱스를 만들어서 배포하며, 아이튠즈에서 음악을 판매할 수 있도록 한다. 미국에는 TuneCore, Reverbnation 등의 회사가 비슷한 일을 한다. 드렁큰타이거, 에픽하이, 장기하 등등의 클라이언트를 보유중이다. 디지털 판매가 늘어날수록 기존 레이블 대신 이런 방식으로 유통/마케팅을 돕는 회사들이 늘어날 것인데 (이미 늘어났고), 한국 가수들의 글로벌 진출에 조금이나마 보탬이 될 수 있는 모델이다. <span style=\"font-weight:bold\">박진영-원더걸스의 사례의 온라인판</span>이라고 해석할 수 있겠다.<br>\n<div style=\"text-align:center;clear:both;margin-bottom:10px\"><img src=\"http://iankwon.com/attach/1/1306207011.png\" width=\"500\" height=\"373\" alt=\"\"></div><br>\n위의 세가지 모델 모두 생각해보면 간단한(?) 모델인데, 이를 실제 비즈니스로 실행을 시켰다는 점이 인상적이다. 물리적 실체가 있는 상품이 아니라 컨텐츠/서비스이고, 더군다나 웹이라는 특성을 가졌음에도, 지리적/인구통계적 arbitrage를 적절히 활용하고 있는 훌륭한 디지털 오파상들이라고 할 수 있겠다. 포텐셜 시장크기 측면에선 제한적일순 있겠으나 확실한 니치 플레이어로서 포지셔닝 할 수 있을 것 같다. Good Luck!<br>"
+    },
+    "author" : "(이안)",
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://www.iankwon.com/rss",
+      "title" : "Blog on the shore",
+      "htmlUrl" : "http://www.iankwon.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1259581377194",
+    "timestampUsec" : "1259581377194089",
+    "id" : "tag:google.com,2005:reader/item/e597eb3a05d58c40",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/07171487490709895049/state/com.google/broadcast", "Book", "Software Engineering" ],
+    "title" : "Coders At Work, by Peter Seibel",
+    "published" : 1258310413,
+    "updated" : 1258310413,
+    "alternate" : [ {
+      "href" : "http://danweinreb.org/blog/coders-at-work-by-peter-seibel",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/07171487490709895049/state/com.google/broadcast",
+      "title" : "ruseel's shared items"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "<p>In his new book, <a href=\"http://www.codersatwork.com/\">Coders at Work</a>, Peter Seibel interviews some of the best software developers in the world, asking how they work, what practices they follow, how they learned, and what advice they can offer.  Because Peter is, himself, an experienced senior software developer, he knows most relevant questions to ask, the ones that have to do with how real programmers do their work.  He engages in a real back-and-forth conversation rather than just presenting a questionairre.  You feel like you’re sitting there with them, as he asks all the same questions you’d want to ask if you were there yourself.</p>\n<p>How do you you find the best programmers?  He ran his own little contest: he got a lot of nominations, and people voted.  I am confident that this worked, because a lot of the people he interviewed are people I know to be among the best.  I know Guy L. Steele Jr and L Peter Deutsch, and consider them two of the very best in the world.  Most of the others I have heard of.</p>\n<p>Peter is also the author of <a href=\"http://www.amazon.com/Practical-Common-Lisp-Peter-Seibel/dp/1590592395/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1257110992&amp;sr=8-1\">Practical Common Lisp</a>, the best book to read if you want to write real programs in Common Lisp.  His understanding of the language and its deep concepts are second to none.  He has also done advanced software development at several companies, including BEA Systems and Kenamea.  Having that kind of experience lets him ask probing and relevant questions that reveal what’s really interesting about how the interviewees work and think.  There’s no other book like it.</p>"
+    },
+    "author" : "Dan Weinreb",
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://danweinreb.org/blog/feed",
+      "title" : "Dan Weinreb&#39;s blog",
+      "htmlUrl" : "http://danweinreb.org/blog"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1259399433177",
+    "timestampUsec" : "1259399433177976",
+    "id" : "tag:google.com,2005:reader/item/fb1e17ade5c38b17",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/07171487490709895049/state/com.google/broadcast", "WEBLOG", "jetpack" ],
+    "title" : "Firefox Image Editor: 14 Lines of Code",
+    "published" : 1257893315,
+    "updated" : 1257893315,
+    "alternate" : [ {
+      "href" : "http://www.azarask.in/blog/post/jetpack_image_editor/",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/07171487490709895049/state/com.google/broadcast",
+      "title" : "ruseel's shared items"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "<p><iframe src=\"http://reader.googleusercontent.com/reader/embediframe?src=http://vimeo.com/moogaloop.swf?clip_id%3D7429644%26server%3Dvimeo.com%26show_title%3D1%26show_byline%3D1%26show_portrait%3D0%26color%3Dcc6600%26fullscreen%3D1&amp;width=640&amp;height=416\" width=\"640\" height=\"416\"></iframe></p>\n<p><span></span></p>\n<p><a href=\"http://jetpack.mozillalabs.com\">Jetpack</a> makes it super-fast for any web developer to make Firefox extensions. <a href=\"http://azarask.in/jetpack/editor/pixlr.js\">14 lines of code</a> is all it takes to write an extensions that let’s you edit any image you find on the web.</p>\n<h2><a href=\"http://azarask.in/jetpack/editor/\">Try it out!</a></h2>\n<p>Drew Willcoxon has some <a href=\"http://blog.mozilla.com/adw/2009/11/10/jetpack-menu-and-twitter-apis/\">great examples</a> of Jetpack, context menus, and Twitter working together. To find out more about creating menus in Jetpack, you can read the pretty pretty <a href=\"https://developer.mozilla.org/en/Jetpack/UI/Menu\">documentation</a>.</p>\n<p><b>Here’s a quick challenge: What can you make using Jetpack in 14 lines of code?</b></p>\n\n\n<p>Related posts:<ol><li><a href=\"http://www.azarask.in/blog/post/ubiquity-photo-editor/\" rel=\"bookmark\" title=\"Permanent Link: Ubiquity Photo Editor: A Sketch\">Ubiquity Photo Editor: A Sketch</a></li>\n<li><a href=\"http://www.azarask.in/blog/post/jetpack-faq/\" rel=\"bookmark\" title=\"Permanent Link: Jetpack FAQ\">Jetpack FAQ</a></li>\n<li><a href=\"http://www.azarask.in/blog/post/what-if-it-was-easy-to-write-firefox-extensions/\" rel=\"bookmark\" title=\"Permanent Link: What If… It Was Easy To Write Firefox Extensions\">What If… It Was Easy To Write Firefox Extensions</a></li>\n</ol></p>"
+    },
+    "author" : "Aza Raskin",
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://www.azarask.in/blog/feed/",
+      "title" : "Aza on Design",
+      "htmlUrl" : "http://www.azarask.in/blog"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1257252472819",
+    "timestampUsec" : "1257252472819589",
+    "id" : "tag:google.com,2005:reader/item/72aeb9f56929adf1",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/07171487490709895049/state/com.google/broadcast" ],
+    "title" : "Google CEO on personalized news",
+    "published" : 1256833920,
+    "updated" : 1259873148,
+    "replies" : [ {
+      "href" : "http://glinden.blogspot.com/feeds/7409501189736194251/comments/default",
+      "title" : "Post Comments",
+      "type" : "application/atom+xml"
+    }, {
+      "href" : "https://www.blogger.com/comment.g?blogID=6569681&postID=7409501189736194251",
+      "title" : "5 Comments",
+      "type" : "text/html"
+    } ],
+    "alternate" : [ {
+      "href" : "http://glinden.blogspot.com/2009/10/google-ceo-on-personalized-news.html",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/07171487490709895049/state/com.google/broadcast",
+      "title" : "ruseel's shared items"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "Google CEO Eric Schmidt has been talking quite a bit about personalization in online news recently.  First, Eric <a href=\"http://business.timesonline.co.uk/tol/business/industry_sectors/technology/article6858991.ece\">said</a>:<blockquote><i>We and the industry ... [should] personalize the news.<br><br>At its best, the on-line version of a newspaper should learn from the information I'm giving it -- what I've read, who I am and what I like -- to automatically send me stories and photos that will interest me.</i></blockquote>Then, Eric <a href=\"http://firstdraftofhistory.theatlantic.com/analysis/internet_is_good.php\">described</a> how newspapers could make money using personalized advertising:<blockquote><i>Imagine a magazine online that knew everything about you, knew what you had read, allowed you to go deep into a subject and also showed you things... that are serendipit[ous] ... popular ... highly targetable ... [and] highly advertisable.  Ultimately, money will be made.</i></blockquote>Finally, Eric <a href=\"http://searchengineland.com/google-ceo-eric-schmidt-on-newspapers-journalism-27172\">claimed</a> Google has a moral duty to help newspapers succeed:<blockquote><i>Google sees itself as trying to make the world a better place. And our values are that more information is positive -- transparency. And the historic role of the press was to provide transparency, from Watergate on and so forth. So we really do have a moral responsibility to help solve this problem.<br><br>Well-funded, targeted professionally managed investigative journalism is a necessary precondition in my view to a functioning democracy ... That's what we worry about ... There [must be] enough revenue that ... the newspaper [can] fulfill its mission.</i></blockquote>Eric's words come at a time when, as the New York Times <a href=\"http://www.nytimes.com/2009/10/27/business/media/27audit.html\">reports</a>, newspapers are cratering, with \"revenue down 16.6 percent last year and about 28 percent so far this year.\"<br><br>For more on personalized news, please see my earlier posts, \"<a href=\"http://glinden.blogspot.com/2008/03/people-who-read-this-article-also-read.html\">People who read this article also read</a>\", \"<a href=\"http://glinden.blogspot.com/2008/01/brief-history-of-findory.html\">A brief history of Findory</a>\", and \"<a href=\"http://glinden.blogspot.com/2007/11/personalizing-newspaper.html\">Personalizing the newspaper</a>\".<br><br>For more on personalized advertising, please see my July 2007 post, \"<a href=\"http://glinden.blogspot.com/2007/07/what-to-advertise-when-there-is-no.html\">What to advertise when there is no commercial intent?</a>\"<br><br><b>Update</b>: Some more useful references in the <a href=\"http://glinden.blogspot.com/2009/10/google-ceo-on-personalized-news.html#comments\">comments</a>.<br><br><b>Update</b>: Five weeks later, Eric Schmidt, in the WSJ, <a href=\"http://online.wsj.com/article/SB10001424052748704107104574569570797550520.html?mod=WSJ_hpp_MIDDLTopStories\">imagines</a> a newspaper that \"knows who I am, what I like, and what I have already read\" and that makes sure that \"like the news I am reading, the ads are tailored just for me\" instead of being \"static pitches for products I'd never use.\" He also criticizes newspapers for treating readers \"as a stranger ... every time [they] return.\"<div><img width=\"1\" height=\"1\" src=\"https://blogger.googleusercontent.com/tracker/6569681-7409501189736194251?l=glinden.blogspot.com\" alt=\"\"></div>"
+    },
+    "author" : "Greg Linden",
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://glinden.blogspot.com/atom.xml",
+      "title" : "Geeking with Greg",
+      "htmlUrl" : "http://glinden.blogspot.com/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1256089786225",
+    "timestampUsec" : "1256089786225523",
+    "id" : "tag:google.com,2005:reader/item/1ccf72a82f23cad3",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/07171487490709895049/state/com.google/broadcast", "Higher Education" ],
+    "title" : "TEDTalks : Beau Lotto: Optical illusions show how we see - Beau Lotto (2009)",
+    "published" : 1255010700,
+    "updated" : 1255010700,
+    "alternate" : [ {
+      "href" : "http://feedproxy.google.com/~r/TEDTalks_video/~3/SxVQyMKNukg/653",
+      "type" : "text/html"
+    } ],
+    "canonical" : [ {
+      "href" : "http://www.ted.com/talks/view/id/653"
+    } ],
+    "enclosure" : [ {
+      "href" : "http://feedproxy.google.com/~r/TEDTalks_video/~5/_P9MwUCudPU/BeauLotto_2009G.mp4",
+      "type" : "video/mp4",
+      "length" : "66510382"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/07171487490709895049/state/com.google/broadcast",
+      "title" : "ruseel's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "Beau Lotto's color games puzzle your vision, but they also spotlight what you can't normally see: how your brain works. This fun, first-hand look at your own versatile sense of sight reveals how evolution tints your perception of what's really out there.<img src=\"http://feeds.feedburner.com/~r/TEDTalks_video/~4/SxVQyMKNukg\" height=\"1\" width=\"1\">"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://feeds2.feedburner.com/tedtalks_video",
+      "title" : "TEDTalks (video)",
+      "htmlUrl" : "http://www.ted.com/talks/list"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1256089569065",
+    "timestampUsec" : "1256089569065522",
+    "id" : "tag:google.com,2005:reader/item/7556b373274aee91",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/07171487490709895049/state/com.google/broadcast" ],
+    "title" : "VisiCalc turns 30 and SocialCalc turns 1.0",
+    "published" : 1255960374,
+    "updated" : 1255960374,
+    "alternate" : [ {
+      "href" : "http://danbricklin.com/log/2009_05_27.htm#vc30",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/07171487490709895049/state/com.google/broadcast",
+      "title" : "ruseel's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "According to my notebook from 1979, 30 years ago today Dan Fylstra, head of Personal Software, our Bay Area publisher, told me that he had the first production VisiCalc packages in hand. I received mine the next day (Saturday delivery). So today, for argument's sake, is the 30th anniversary of the shipment of VisiCalc 1.0. (Well, actually, we called it version 1.37, but it was the first packaged version produced and sold in volume.)\n<br>\n<br>[Photos in the <a href=\"http://danbricklin.com/log/2009_05_27.htm#vc30\">original blog post</a> on <a href=\"http://danbricklin.com/log\">Dan Bricklin's Log</a> with the following captions: Dan's notebook entry from 1979; The package and contents: 5 1/4\" diskette, reference card, manual, registration card; Apple II with VisiCalc]\n<br>\n<br>Spreadsheets have aged well over those 3 decades. While computers have gotten thousands of times more powerful, and spreadsheets have zillions of additional capabilities, the same basic metaphor of a free-form grid of cells for displaying text and numbers, each backed by formulas and display attributes, along with a simple and natural interface for entering, modifying, and displaying that data, has endured. To me, to have helped bring such a useful and long-lasting tool to the world is very gratifying.\n<br>\n<br>The concept of spreadsheets was not new in 1979. Text and numbers arranged in columns and rows go back a long time. (The 10 Commandments are traditionally shown as two columns of five entries each, hundred-year-old books present data in spreadsheets as a matter of course, and many timesharing programs in the 1970s had \"spread sheet\" output.) VisiCalc is known, though, as the first of a particular popular set of features implemented on a personal computer. There is a direct line starting with VisiCalc going all the way to today's dominant spreadsheet, Microsoft Excel. (Lotus 1-2-3 could read VisiCalc files and execute them directly. Excel can read 1-2-3 files.)\n<br>\n<br>My original vision (in 1978) was of a handheld calculator that worked as a mouse with a heads-up display to give you a virtual image that made things look as big as the blackboards I sat in front of every day at Harvard Business School. That type of hardware was beyond what I could code for in those days. The spreadsheet concept, though, moved well onto the much less capable popular personal systems of the day -- character-based, stand-alone personal computers like the Apple II and TRS-80.\n<br>\n<br>As personal computing advanced, spreadsheets followed along. The IBM PC was much more powerful with much more memory and better displays. Lotus 1-2-3 (the leader among many) took the spreadsheet metaphor further into that world, taking advantage of the memory and displays. Spreadsheets did quite well in that world.\n<br>\n<br>With the advent of personal computer GUI systems, spreadsheets adapted well, too. Microsoft Excel emerged dominant, keeping the same grid metaphor, but taking advantage of bitmapped displays and laser printers and the increasing amounts of local storage, and wrapping it in a more accessible mouse and keyboard UI. With GUI systems you expect great control of the visual look of the output, and spreadsheets benefited from the addition of customizable cell borders, fonts, and the even more powerful computers and access to database data.\n<br>\n<br>In an early promotional video about Excel for Windows, Microsoft said \"Every major advance in hardware has been legitimized by a spreadsheet.\" Of course, it's not just by a spreadsheet, it's also by a word processor, and now accessing email and having something to do browsing with. But it is true that, at least for business, you expect desktop systems to have spreadsheet capabilities.\n<br>\n<br>In the early 1990's, when I worked at Slate Corporation on software for pen-based computers, I was part of the development of a spreadsheet that took advantage of those systems, even allowing you to scribble \"ink\" notes into cells and to do operations with simple gestures.\n<br>\n<br>Social software has moved people away from working on their own copies of documents in their own personal silos, shuffling them with email and Fedex from person to person. They now can work together on single shared copies, linked together in a web based upon topical and personal connections. You'd expect the spreadsheet metaphor to go there, too, and it is. (Of course, like the word processing capabilities of wikis, which don't come anywhere near the capabilities of a product like Microsoft Word, you'd wouldn't be surprised if social spreadsheets didn't have every Excel bell and whistle.)\n<br>\n<br>I have had to privilege of being one of the participants in that evolution, and for that today is special, too: Socialtext, the enterprise social software pioneer, is releasing SocialCalc as a production product today. (It has been in various stages of beta for some time.) I wrote the main spreadsheet \"engine\" code and have helped guide the project. I've been working closely with Socialtext developers to bring spreadsheets to their social software system which already has wiki pages, social networking, microblogging, and more.\n<br>\n<br>Again, the spreadsheet takes on some of the characteristics of the platform. In this case, that means being browser-based, having live linking, both for navigation and for getting information into and out of the sheet, and other attributes like revision history, tagging, and a connection to people's identities. Beta-test customers have used it in ways that show its potential for being an important business tool. Enough of the UI and integration is now complete to let people easily take advantage of it. For more information, see \"<a href=\"http://www.socialtext.com/blog/2009/10/socialcalc-the-social-spreadsh.html\">SocialCalc, the Social Spreadsheet, Comes Out of Beta</a>\" on the Socialtext web site.\n<br>\n<br>This is a great milestone for me personally. I've been working on SocialCalc, and its predecessor, wikiCalc, for four years now. It's been really gratifying over the last several months to have the code I've been writing become a common component of the One Laptop Per Child's offering around the world as one of my contributions to the Open Source world. (The release of a production version has been happening there, too, including a Spanish translation that has been done and is being integrated.) Now, finally, I can also see my work contributing to the shipment of a robust shared spreadsheet for the enterprise -- the \"wiki\" of wikiCalc growing into the \"social\" of SocialCalc and Socialtext.\n<br>\n<br>You'll find more about the early history of VisiCalc in the History section of my web site and in chapter 12 of <a href=\"http://www.bricklin.com/bontech/\">my book</a>. There are links to many of my other writings about VisiCalc, including an early version you can run on MSDOS and Windows, on my <a href=\"http://www.bricklin.com/visicalc.htm\">VisiCalc page</a>. You may also like \"<a href=\"http://danbricklin.com/log/2009_03_25.htm#1978paper\">The paper I wrote for business school class about VisiCalc in 1978</a>\" earlier in this blog.\n<br>\n<br>Happy Birthday VisiCalc! Here's to many more!"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://danbricklin.com/log_rss.xml",
+      "title" : "Dan Bricklin&#39;s Log",
+      "htmlUrl" : "http://danbricklin.com/log"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1256012038968",
+    "timestampUsec" : "1256012038968971",
+    "id" : "tag:google.com,2005:reader/item/9f4bc50013f51d76",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/07171487490709895049/state/com.google/broadcast" ],
+    "title" : "Links for 2009-10-18 [del.icio.us]",
+    "published" : 1255935600,
+    "updated" : 1255935600,
+    "alternate" : [ {
+      "href" : "http://feedproxy.google.com/~r/SmallValuesOfCool/~3/3LM5Zx1egR4/brunns",
+      "type" : "text/html"
+    } ],
+    "canonical" : [ {
+      "href" : "http://del.icio.us/brunns#2009-10-18"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/07171487490709895049/state/com.google/broadcast",
+      "title" : "ruseel's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<ul>\n<li><a href=\"http://danieltenner.com/posts/0012-google-wave.html\">What problems does Google Wave solve?</a></li>\n</ul>"
+    },
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://feeds.feedburner.com/SmallValuesOfCool",
+      "title" : "Small Values of Cool",
+      "htmlUrl" : "http://www.brunningonline.net/simon/blog/"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1256005348725",
+    "timestampUsec" : "1256005348725546",
+    "id" : "tag:google.com,2005:reader/item/3d639be3c7ea82a7",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/07171487490709895049/state/com.google/broadcast" ],
+    "title" : "Big Ball of Mud and technical debt",
+    "published" : 1256005348,
+    "updated" : 1256005348,
+    "alternate" : [ {
+      "href" : "http://www.cincomsmalltalk.com/userblogs/ralph/blogView?showComments=true&printTitle=Big_Ball_of_Mud_and_technical_debt&entry=3431285505",
+      "type" : "text/html"
+    } ],
+    "related" : [ {
+      "href" : "http://www.cincomsmalltalk.com/userblogs/ralph/blogView",
+      "title" : "Ralph Johnson - Blog"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/07171487490709895049/state/com.google/broadcast",
+      "title" : "ruseel's shared items"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "<div>\n<p>My class discussed &quot;Big Ball of Mud&quot; last Tuesday nght, and I&#39;m still thinking about the discussion.  Wednesday morning I read a related blog from &quot;Uncle Bob&quot; Martin, called &quot;<a href=\"http://blog.objectmentor.com/articles/2009/09/22/a-mess-is-not-a-technical-debt\">A Mess is not technical debt</a>\", and wanted to react to it.</p>\n\n<p>I agree with most of the article.  The more dangerous the project, the more you can&#39;t afford sloppy code.  But I disagree that there is a strong line between messy code and technical debt.</p>\n\n<p>For example, suppose you copy a big chunk of code and then refactor it a little to eliminate duplication.  Then you realize that somebody else has also copied it, but didn&#39;t refactor it.  And somebody else had copied it and refactored as well.  So, you need to figure out how to abstract the whole thing.  You think about it for several hours, try one thing and another, and then decide to go home and hope you think better in the morning.  But in the morning there is a crisis that you must handle.  You don&#39;t get a chance to look at it for a few days, and when you do, you see that someone refactored the code, but chose one of the alternatives you had already considered and rejected, and the result is a bad as you thought it would be.</p>\n\n<p>Suppose you have an idea for a system, and know it won&#39;t be hard to write because various libraries that you use already cover 90% of the problem.  So, you make your application by composing these libraries and wrapping them with glue code.  Not pretty, but it works and is easy to understand, if you already understood these libraries.  But then people (not you) start adding features and you eventually realize that you needed a different design.  But it will take awhile to rewrite it (you&#39;ll need to toss a couple of the libraries and do it yourself) and until you do, it is technical debt.</p>\n\n<p>This is often how we end up with balls of mud.  As soon as we realize we are in the mud, we should try to get out.  Sometimes something else is more urgent, and we wallow in the mud for awhile.  But as long as we detect the situation when it is a small ball of mud, and don&#39;t let it grow to a big ball of mud, we should be OK.  Nevertheless, we are in a mess, and it isn&#39;t because we are stupid, it is because we guessed wrong, and the mess is really a kind of technical debt.</p>\n</div>"
+    },
+    "comments" : [ ],
+    "annotations" : [ {
+      "content" : "One of the ways to check if somebody is a good software architect is when asking them about Big Ball of Mud and they understand why it is an useful architecture.",
+      "author" : "Daniel Yokomizo",
+      "userId" : "08060419678676185941",
+      "profileId" : "115922474891845874599"
+    } ],
+    "origin" : {
+      "streamId" : "user/08060419678676185941/source/com.google/link",
+      "title" : "Ralph Johnson - Blog",
+      "htmlUrl" : "http://www.cincomsmalltalk.com/userblogs/ralph/blogView"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1256003095744",
+    "timestampUsec" : "1256003095744890",
+    "id" : "tag:google.com,2005:reader/item/e62c1d52ab6e294f",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/07171487490709895049/state/com.google/broadcast" ],
+    "title" : "10 years of Ximian",
+    "published" : 1255998480,
+    "updated" : 1255998480,
+    "alternate" : [ {
+      "href" : "http://tirania.org/blog/archive/2009/Oct-19.html",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/07171487490709895049/state/com.google/broadcast",
+      "title" : "ruseel's shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "<p><img src=\"http://primates.ximian.com/~miguel/pictures/ximian_logo.png\" align=\"right\">Today is the ten year anniversary of the\n\tincorporation of Ximian, Inc.  A company founded\n\tby <a href=\"http://nat.org\">Nat Friedman</a> and myself whose\n\tgoal was to advance the state of the Linux desktop.   It was\n\talso an excuse for Nat and myself to hang out as we had become\n\tbest friends forever in the previous two years.\n\n\t<p>Our conversations over the years have always been a little\n\tsurreal.   I have megabytes worth of logs that look like this:\n\n\t<center>\n\t<img src=\"http://tirania.org/shots/09101902503tyqgdqq.png\">\n\t</center>\n\n\t<p>Ximian was made up of friends that shared this vision, and\n\tits founders had no startup, business or management experience\n\twhen we launched the company.   We learned on the job and we\n\twere advised by friends that believed in our goals, and by\n\tpeople that cared about our mission.\n\n\t<center>\n\t<img src=\"http://tirania.org/shots/0910190252GPKJ7O4M.png\">\n\t<p>From the archive: Ettore Perazzoli, Raph Levien,\n\tNat and myself in Summer of Linux.\n\t</p></center>\n\n\t<p>Ximian hired 90% of its employees from open source contributors\n\tin the community and folks that we had met over mailing lists\n\tor IRC channels.   \n\n\t<p>Nat was a Computer Science and Math graduate; I was a math\n\tdrop out and we had no management experience. This means that\n\twe made every possible management mistake in the book, but all\n\tof our friends and employees stuck with us as we learned and\n\tas we worked to get the company off the ground.\n\n\t<p>This is an interesting time to reflect on 10 years of\n\thacking adventures.   Writing, funding and advancing the state\n\tof the art of open source.  In the next few weeks, Nat and\n\tmyself will be publishing some short stories from Ximian.\n\n\t<center>\n\t<img src=\"http://tirania.org/shots/0909251310SLjMV6f9.png\">\n\t</center>\n\n\t<p>Today Ximian has been incorporated into Novell.  Our goals\n\thave been expanded, but we still continue to work to advance\n\tthe state of the art in Linux.\n\n\t<p>Looking forward to another 10 years of joy and hacking.</p></p></p></p></p></p></p></p>"
+    },
+    "author" : "miguel@gnome.org (Miguel de Icaza)",
+    "comments" : [ {
+      "id" : "FRBE/0x712ee63975429323",
+      "plainContent" : "며칠 전 무릅팍도사 성유리편을 보았다. 오늘 Miguel de Icaza의 10 years of ximian을 읽었다. 두 이야기를 들으며 나의 지난 10년을 되돌아 본다.",
+      "htmlContent" : "며칠 전 무릅팍도사 성유리편을 보았다. 오늘 Miguel de Icaza의 10 years of ximian을 읽었다. 두 이야기를 들으며 나의 지난 10년을 되돌아 본다.",
+      "author" : "ruseel",
+      "userId" : "07171487490709895049",
+      "profileId" : "111464636232542942009",
+      "venueStreamId" : "user/07171487490709895049/state/com.google/broadcast",
+      "createdTime" : 1256003230,
+      "modifiedTime" : 1256003230,
+      "isSpam" : false
+    } ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://tirania.org/blog/miguel.rss2",
+      "title" : "Miguel de Icaza",
+      "htmlUrl" : "http://tirania.org/blog//index.html"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1254646101240",
+    "timestampUsec" : "1254646101240928",
+    "id" : "tag:google.com,2005:reader/item/b64af2da949db951",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/07171487490709895049/state/com.google/broadcast", "general" ],
+    "title" : "Screen Scraping with ScrAPI",
+    "published" : 1253177144,
+    "updated" : 1253177144,
+    "alternate" : [ {
+      "href" : "http://blog.labnotes.org/2009/09/17/screen-scraping-with-scrapi/",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/07171487490709895049/state/com.google/broadcast",
+      "title" : "ruseel's shared items"
+    } ],
+    "content" : {
+      "direction" : "ltr",
+      "content" : "<p>I just found out <a href=\"http://railscasts.com\">Railcasts</a> episode 173 is dedicated to <a href=\"http://railscasts.com/episodes/173-screen-scraping-with-scrapi\">screen scraping with scrAPI</a>. There’s also a <a href=\"http://asciicasts.com/episodes/173-screen-scraping-with-scrapi\">transcript, annotated with screenshots</a>.</p>\n<p><img src=\"http://blog.labnotes.org/wp-content/uploads/2009/09/E173I03.png\" alt=\"E173I03\" title=\"E173I03\" width=\"500\" height=\"435\"></p>\n<p>Speaking of, love the concept of <a title=\"video.to_s\" href=\"http://asciicasts.com/about\">ASCIIcasts</a>:</p>\n<blockquote><p>I really like Ryan Bates’s Railscasts, but videos aren’t the easiest thing to search through when you’re trying to search for a single tip or line of Ruby code to add to your own site.</p></blockquote>"
+    },
+    "author" : "Assaf",
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://blog.labnotes.org/feed",
+      "title" : "Labnotes",
+      "htmlUrl" : "http://labnotes.org"
+    }
+  }, {
+    "isReadStateLocked" : true,
+    "crawlTimeMsec" : "1192154424552",
+    "timestampUsec" : "1192154424552098",
+    "id" : "tag:google.com,2005:reader/item/96252de81fabdd38",
+    "categories" : [ "user/14778993901569235562/state/com.google/read", "user/14778993901569235562/state/com.google/broadcast-friends", "user/16091776282162362144/state/com.google/broadcast", "News" ],
+    "title" : "News: TF2",
+    "published" : 1190952000,
+    "updated" : 1190952000,
+    "alternate" : [ {
+      "href" : "http://cad-comic.com/news.php?i=1488#1489",
+      "type" : "text/html"
+    } ],
+    "via" : [ {
+      "href" : "http://www.google.com/reader/public/atom/user/16091776282162362144/state/com.google/broadcast",
+      "title" : "taboo_'s shared items"
+    } ],
+    "summary" : {
+      "direction" : "ltr",
+      "content" : "Yeah, I know I could pre-order TF2 and play in the beta right now... but that's only if I wanted the PC version. TF2 I could play either way, but f..."
+    },
+    "author" : "tim@cad-comic.com (Tim)",
+    "comments" : [ ],
+    "annotations" : [ ],
+    "origin" : {
+      "streamId" : "feed/http://www.cad-comic.com/rss/rss.xml",
+      "title" : "Ctrl+Alt+Del",
+      "htmlUrl" : "http://www.cad-comic.com/"
+    }
+  } ]
+}
