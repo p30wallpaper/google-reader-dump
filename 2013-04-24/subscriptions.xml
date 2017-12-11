@@ -408,6 +408,9 @@
                 xmlUrl="http://feeds.feedburner.com/cssremix" htmlUrl="http://cssremix.com"/>
             <outline text="Design Shack" title="Design Shack" type="rss"
                 xmlUrl="http://feeds.feedburner.com/designshack" htmlUrl="http://pipes.yahoo.com/pipes/pipe.info?_id=4a90daef25bf54d468b45b1b02f5658c"/>
+            <outline text="Graphiceat" title="Graphiceat" type="rss"
+                xmlUrl="https://feeds.feedburner.com/graphiceat" htmlUrl="https://graphiceat.com"/>
+        </outline>
             <outline text="Line25" title="Line25" type="rss"
                 xmlUrl="http://feeds2.feedburner.com/Line25" htmlUrl="http://line25.com"/>
         </outline>
